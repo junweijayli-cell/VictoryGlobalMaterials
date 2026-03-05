@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Enquiry Sent – Victory Global Materials</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --navy:#0b1f36;
+      --navy-mid:#0f2a47;
+      --gold:#e0201a;
+      --gold-light:#ff5b4d;
+      --cream:#f3f4f6;
+      --white:#ffffff;
+      --border: rgba(11,31,54,0.12);
+      --muted:#4b5563;
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{
+      font-family:"DM Sans", Arial, Helvetica, sans-serif;
+      background: linear-gradient(180deg, #ffffff 0%, var(--cream) 100%);
+      color: var(--navy);
+      min-height:100vh;
+    }
+
+    /* Top bar */
+    header{
+      position: sticky;
+      top:0;
+      z-index:10;
+      background: rgba(10, 22, 40, 0.95);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 14px 20px;
+    }
+    .brand{
+      display:flex;
+      align-items:center;
+      gap:12px;
+      max-width:1100px;
+      margin:0 auto;
+    }
+    .brand img{
+      width:46px;height:46px;
+      object-fit:contain;
+      border-radius:10px;
+      box-shadow:0 10px 25px rgba(0,0,0,0.25);
+    }
+    .brand .name{
+      color:#fff;
+      font-weight:700;
+      letter-spacing:0.05em;
+      line-height:1.1;
+    }
+    .brand .tag{
+      color: rgba(255,255,255,0.65);
+      font-size:0.72rem;
+      letter-spacing:0.12em;
+      text-transform:uppercase;
+      margin-top:3px;
+    }
+
+    /* Page */
+    .wrap{
+      max-width:1100px;
+      margin:0 auto;
+      padding: 28px 20px 56px;
+    }
+
+    .card{
+      background: var(--white);
+      border:1px solid var(--border);
+      border-radius: 18px;
+      padding: 26px;
+      box-shadow: 0 18px 50px rgba(11,31,54,0.10);
+      display:grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 22px;
+      align-items:center;
+      margin-top: 22px;
+    }
+
+    @media (max-width: 900px){
+      .card{grid-template-columns: 1fr;}
+    }
+
+    .pill{
+      display:inline-flex;
+      align-items:center;
+      gap:10px;
+      border:1px solid rgba(224, 32, 26, 0.28);
+      background: rgba(224, 32, 26, 0.06);
+      color: var(--gold);
+      padding: 8px 12px;
+      border-radius: 999px;
+      font-size: 0.78rem;
+      letter-spacing:0.08em;
+      text-transform: uppercase;
+      width: fit-content;
+    }
+
+    .title{
+      margin-top:14px;
+      font-size: clamp(1.8rem, 3.2vw, 2.4rem);
+      line-height:1.15;
+      font-weight:700;
+    }
+
+    .desc{
+      margin-top:12px;
+      color: var(--muted);
+      line-height:1.75;
+      font-size: 0.98rem;
+      max-width: 62ch;
+    }
+
+    .meta{
+      margin-top: 14px;
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      color: #6b7280;
+      font-size: 0.9rem;
+    }
+    .meta span{
+      padding: 6px 10px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      background: #fff;
+    }
+
+    .actions{
+      display:flex;
+      flex-direction:column;
+      gap: 12px;
+      align-items:stretch;
+    }
+
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap:10px;
+      text-decoration:none;
+      border-radius: 14px;
+      padding: 14px 16px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-size: 0.82rem;
+      border: 1px solid transparent;
+      cursor:pointer;
+      transition: transform .2s ease, background .2s ease, border-color .2s ease;
+    }
+    .btn:hover{ transform: translateY(-2px); }
+
+    .btn-primary{
+      background: var(--gold);
+      color: #fff;
+    }
+    .btn-primary:hover{ background: var(--gold-light); }
+
+    .btn-outline{
+      background: #fff;
+      color: var(--navy);
+      border-color: var(--border);
+    }
+    .btn-outline:hover{ border-color: rgba(224,32,26,0.35); color: var(--gold); }
+
+    .btn-whatsapp{ background:#25D366; color:#fff; }
+    .btn-zalo{ background:#0068FF; color:#fff; }
+
+    .note{
+      margin-top: 14px;
+      color:#6b7280;
+      font-size: 0.92rem;
+      line-height:1.6;
+    }
+
+    footer{
+      max-width:1100px;
+      margin: 18px auto 0;
+      padding: 0 20px 34px;
+      color:#6b7280;
+      font-size:0.85rem;
+      display:flex;
+      justify-content:space-between;
+      gap: 12px;
+      flex-wrap:wrap;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="brand">
+      <!-- Use the SAME logo file as your header logo -->
+      <img src="assets/img_c15bacb038.png" alt="Victory Global Materials logo" />
+      <div>
+        <div class="name">VICTORY GLOBAL</div>
+        <div class="tag">VICTORY FOR EVERY PROJECT</div>
+      </div>
+    </div>
+  </header>
+
+  <div class="wrap">
+    <div class="card">
+      <div>
+        <div class="pill">✓ Enquiry successfully sent</div>
+        <h1 class="title">Thanks — we’ve received your enquiry.</h1>
+        <p class="desc">
+          Our team will review your request and reply to you by email as soon as possible.
+          If your enquiry is urgent (tender deadline / site delivery), contact us directly via WhatsApp or Zalo for a faster response.
+        </p>
+
+        <div class="meta">
+          <span>Response: 1 business day</span>
+          <span>Vietnam nationwide delivery</span>
+          <span>Factory-direct supply</span>
+        </div>
+
+        <p class="note">
+          Tip: If you have drawings/specs (DN/PN, pressure class, standard, quantity, destination), sending them via chat will speed up quotation.
+        </p>
+      </div>
+
+      <div class="actions">
+        <a class="btn btn-primary" href="index.html#products">View Products</a>
+        <a class="btn btn-outline" href="index.html">Back to Home</a>
+        <a class="btn btn-zalo" href="https://zalo.me/8618664333510" target="_blank" rel="noopener">Chat on Zalo</a>
+        <a class="btn btn-whatsapp" href="https://wa.me/8618664333510" target="_blank" rel="noopener">Chat on WhatsApp</a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div>© 2025 Victory Global Materials · Guangdong Shenzhen</div>
+    <div>Email: info@victory-global.cn · Tel/WhatsApp/Zalo: +86 18664333510</div>
+  </footer>
+</body>
+</html>
