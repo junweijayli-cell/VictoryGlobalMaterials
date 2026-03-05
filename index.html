@@ -1,0 +1,1406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Victory Global Materials – PVC, HDPE & Stainless Steel Piping Solutions for Vietnam</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy: #0b1f36;
+    --navy-mid: #0f2a47;
+    --navy-light: #163a63;
+    --gold: #e0201a;        /* accent red */
+    --gold-light: #ff5b4d;
+    --cream: #f3f4f6;       /* page background */
+    --white: #ffffff;       /* cards / surfaces */
+    --gray: #4b5563;        /* body text */
+    --border: rgba(11, 31, 54, 0.12); /* subtle industrial border */
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  
+  html { scroll-behavior: smooth; }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f3f4f6;
+    color: #0b1f36;
+    overflow-x: hidden;
+  }
+
+  /* NAV */
+  nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.2rem 4rem;
+    background: rgba(10, 22, 40, 0.95);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 1;
+  }
+
+  .logo-main {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: -18px;
+    letter-spacing: 0.05em;
+  }
+
+  .logo-sub {
+    font-size: 0.62rem;
+    color: rgba(255,255,255,0.65);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-top: -18px;
+    margin-left: calc(60px + 0.65rem);
+    display: block;
+  }
+
+  .logo-row{
+    display:flex;
+    align-items:center;
+    gap:0.65rem;
+  }
+  .logo-icon{
+    width:60px;
+    height:60px;
+    object-fit:contain;
+    border-radius:10px;
+    margin-top: 4px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+  }
+
+  /* Floating Chat Buttons */
+  .chat-fab{
+    position: fixed;
+    right: 18px;
+    bottom: 18px;
+    z-index: 2200;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .chat-fab a{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width: 64px;
+    height: 64px;
+    border-radius: 16px;
+    text-decoration:none;
+    border: none;
+    background: #ffffff;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 18px 45px rgba(0,0,0,0.35);
+    transition: transform .2s ease, border-color .2s ease;
+  }
+  .chat-fab a:hover{
+    transform: translateY(-2px);
+    border-color: var(--gold);
+  }
+  .chat-fab a.wa{ background:#25D366; }
+  .chat-fab a.zalo{ background:#0068ff; }
+  .chat-fab .fab-icon{
+    width: 34px;
+    height: 34px;
+    display:block;
+    object-fit:contain;
+    filter: none;
+  }
+
+  .chat-fab svg{
+    width: 24px;
+    height: 24px;
+    fill: #fff;
+    stroke: none;
+  }
+  .chat-fab .wa{ background: #25D366; border-color: rgba(37,211,102,0.45); }
+  .chat-fab .wa svg{ fill: #fff; }
+  .chat-fab .zalo{
+    background: #0068FF;
+    border-color: rgba(0,104,255,0.45);
+  }
+  .chat-fab .zalo svg{ fill: #fff; }
+
+
+  .nav-links {
+    display: flex;
+    gap: 2.5rem;
+    list-style: none;
+  }
+
+  .nav-links a {
+    color: rgba(255,255,255,0.80);
+    text-decoration: none;
+    font-size: 0.8rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    transition: color 0.3s;
+  }
+
+  .nav-links a:hover { color: #ffffff; }
+
+  .nav-cta {
+    background: var(--gold);
+    color: var(--navy);
+    border: none;
+    padding: 0.6rem 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background 0.3s;
+    text-decoration: none;
+  }
+
+  .nav-cta:hover { background: var(--gold-light); }
+
+  /* HERO */
+  .hero {
+    min-height: 92vh;
+    display: grid;
+    grid-template-columns: 1.05fr 0.95fr;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    padding: 0 4rem;
+    padding-top: 4.25rem;
+  }
+
+  .hero-bg {
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse 60% 80% at 70% 40%, rgba(11,31,54,0.08) 0%, transparent 70%),
+      linear-gradient(180deg, #ffffff 0%, #f3f4f6 100%);
+  }
+
+  .hero-grid{
+    position:absolute;
+    inset:0;
+    background-image:
+      linear-gradient(rgba(11,31,54,0.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(11,31,54,0.05) 1px, transparent 1px);
+    background-size: 64px 64px;
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 700px;
+    animation: fadeUp 1s ease both;
+  }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(40px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .hero-tag {
+    display: inline-block;
+    border: 1px solid var(--gold);
+    color: var(--gold);
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    padding: 0.4rem 1rem;
+    margin-bottom: 2.75rem;
+  }
+
+  .hero h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: clamp(2.8rem, 5vw, 5rem);
+    font-weight: 600;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+    color: var(--navy);
+  }
+
+  .hero h1 em {
+    color: var(--gold);
+    font-style: normal;
+  }
+
+  .hero-sub {
+    font-size: 1rem;
+    color: #374151;
+    line-height: 1.7;
+    max-width: 520px;
+    margin-bottom: 2.5rem;
+  }
+
+  .hero-btns {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .btn-primary {
+    background: var(--gold);
+    color: var(--navy);
+    padding: 0.9rem 2rem;
+    font-weight: 600;
+    font-size: 0.85rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s;
+    display: inline-block;
+  }
+
+  .btn-primary:hover { background: var(--gold-light); transform: translateY(-2px); }
+
+  .btn-outline {
+    background: transparent;
+  color: #111111;
+    padding: 0.9rem 2rem;
+    font-weight: 500;
+    font-size: 0.85rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    border: 1px solid rgba(245,240,232,0.3);
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s;
+    display: inline-block;
+  border-color: #111111;
+}
+
+  .btn-outline:hover { border-color: var(--gold); color: var(--gold); }
+
+
+  /* HERO MEDIA ROTATOR */
+  .hero-media{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+  }
+  .hero-media-card{
+    width: min(520px, 100%);
+  background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+  padding: 14px;
+    overflow: hidden;
+    box-shadow: 0 18px 50px rgba(11,31,54,0.10);
+  }
+  .hero-rotator{  width: 100%;
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
+    background: #eef1f5;
+  border-radius: 14px;
+  border: 1px solid rgba(11,31,54,0.12);
+    opacity: 1;
+    transition: opacity 220ms ease;
+  display: block;
+  height: 100%;
+}
+  .hero-rotator.fade-out{ opacity: 0; }
+
+  .hero-stats{
+    position: absolute;
+    right: clamp(16px, 5vw, 64px);
+    bottom: 28px;
+    display: flex;
+    gap: 1.6rem;
+    align-items: flex-end;
+    justify-content: flex-end;
+    z-index: 3;
+  }
+
+  .stat { text-align: left; }
+
+  .stat-num {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.0rem;
+    font-weight: 700;
+    color: var(--gold);
+    line-height: 1;
+  }
+
+  .stat-label {
+    font-size: 0.75rem;
+    color: #6b7280;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-top: 0.3rem;
+  }
+
+  /* VISION */
+  #vision .feature-title{ margin-top: 0; }
+
+  /* SECTIONS */
+  section {
+    padding: 6rem 4rem;
+  }
+
+  .section-tag {
+    font-size: 0.75rem;
+    color: var(--gold);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+
+  .section-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: clamp(2rem, 3.5vw, 3.2rem);
+    font-weight: 600;
+    color: var(--navy);
+    line-height: 1.15;
+    margin-bottom: 1.5rem;
+  }
+
+  .divider {
+    width: 60px;
+    height: 3px;
+    background: var(--gold);
+    margin-bottom: 2rem;
+  }
+
+  /* ABOUT */
+  .about {
+    background: var(--white);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6rem;
+    align-items: center;
+  }
+
+  .about-text p {
+    color: #374151;
+    line-height: 1.8;
+    font-size: 0.95rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .about-features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+
+  .feature-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    padding: 1.5rem;
+    transition: border-color 0.3s, transform 0.3s;
+  }
+
+  .feature-card:hover {
+    border-color: var(--gold);
+    transform: translateY(-4px);
+  }
+
+  .feature-icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .feature-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--navy);
+    margin-bottom: 0.5rem;
+  }
+
+  .feature-desc {
+    font-size: 0.85rem;
+    color: #4b5563;
+    line-height: 1.6;
+  }
+
+  /* PRODUCTS */
+  .products-section {  background: #f7f8fa;}
+
+  .products-header {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+
+  .products-header .divider {
+    margin: 0 auto 2rem;
+  }
+
+  /* Category Tabs */
+  .cat-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    margin-bottom: 3rem;
+    border: 1px solid var(--border);
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cat-tab {
+    padding: 0.8rem 1.8rem;
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--gray);
+    background: transparent;
+    border: none;
+    border-right: 1px solid var(--border);
+    cursor: pointer;
+    transition: all 0.3s;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .cat-tab:last-child { border-right: none; }
+
+  .cat-tab.active, .cat-tab:hover {
+    background: var(--gold);
+    color: var(--navy);
+  }
+
+  /* Product Grid */
+  .product-category { display: none; }
+  .product-category.active { display: block; }
+
+  .products-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    justify-content: center;
+    max-width: 1320px;
+    margin: 0 auto;
+  }
+  @media (min-width: 720px){
+    .products-grid{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+  @media (min-width: 1120px){
+    .products-grid{ grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  }
+
+  .product-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.4s;
+    position: relative;
+  }
+
+  .product-card:hover {
+    border-color: var(--gold);
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+  }
+
+  .product-img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    background: #0d1a2e;
+    display: block;
+    transition: transform 0.5s;
+  }
+
+  .product-card:hover .product-img {
+    transform: scale(1.04);
+  }
+
+  .product-img-wrap {
+    overflow: hidden;
+    height: 220px;
+  }
+
+  .product-info {
+    padding: 1.5rem;
+  }
+
+  .product-cat-label {
+    font-size: 0.65rem;
+    color: var(--gold);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+
+  .product-name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--navy);
+    margin-bottom: 0.7rem;
+    line-height: 1.3;
+  }
+
+  .product-desc {
+    font-size: 0.85rem;
+    color: #4b5563;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+
+  .product-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+
+  .tag {
+    background: rgba(224, 32, 26, 0.06);
+    border: 1px solid rgba(224, 32, 26, 0.22);
+    color: var(--gold);
+    font-size: 0.65rem;
+    padding: 0.25rem 0.6rem;
+    letter-spacing: 0.05em;
+  }
+
+  /* MODAL */
+  .modal-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(11,31,54,0.82);
+    z-index: 2000;
+    overflow-y: auto;
+    padding: 2rem;
+    backdrop-filter: blur(6px);
+  }
+
+  .modal-overlay.open { display: flex; align-items: flex-start; justify-content: center; }
+
+  .modal {  background: var(--cream);
+    border: 1px solid var(--border);
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    animation: fadeUp 0.4s ease both;
+  }
+
+  .modal-close {
+    position: absolute;
+    top: 1rem; right: 1rem;
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--gray);
+    width: 36px; height: 36px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+    z-index: 10;
+  }
+
+  .modal-close:hover { border-color: var(--gold); color: var(--gold); }
+
+  .modal-img {
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .modal-body {
+    padding: 2.5rem;
+  }
+
+  .modal-cat {
+    font-size: 0.65rem;
+    color: var(--gold);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+
+  .modal-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+  color: var(--navy);
+    margin-bottom: 0.5rem;
+  }
+
+  .modal-divider { width: 50px; height: 2px; background: var(--gold); margin: 1rem 0 1.5rem; }
+
+  .modal-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .modal-section h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+  color: var(--navy);
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+  }
+
+  .modal-section p {
+    font-size: 0.85rem;
+  color: #111111;
+    line-height: 1.7;
+  }
+
+  .modal-section ul {
+    list-style: none;
+    font-size: 0.85rem;
+  color: #111111;}
+
+  .modal-section ul li {
+    padding: 0.3rem 0;
+    padding-left: 1.2rem;
+    position: relative;
+    line-height: 1.5;
+  }
+
+  .modal-section ul li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    color: var(--gold);
+    font-size: 0.8rem;
+  }
+
+  /* PARTNERS */
+  .partners-section {
+    background: var(--white);
+    text-align: center;
+  }
+
+  .partners-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+  }
+
+  .partner-chip {
+    border: 1px solid var(--border);
+    padding: 0.8rem 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: var(--gray);
+    transition: all 0.3s;
+    letter-spacing: 0.05em;
+  }
+
+  .partner-chip:hover {
+    border-color: var(--gold);
+    color: var(--gold);
+  }
+
+  
+  .partner-logo{
+    padding: 0.9rem 1.4rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    min-width: 180px;
+    background: #ffffff;
+  }
+  .partner-logo img{
+    height: 46px;
+    width: auto;
+    max-width: 180px;
+    object-fit: contain;
+    display:block;
+  }
+
+
+  /* CONTACT */
+  .contact-section {  background: var(--cream);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6rem;
+    align-items: start;
+  }
+
+  .contact-info p {  color: #111111;
+    font-size: 0.9rem;
+    line-height: 1.8;
+    margin-bottom: 0.5rem;
+  }
+
+  .contact-info strong {  color: #111111;}
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    background: var(--white);
+    border: 1px solid var(--border);
+    color: var(--navy);
+    padding: 0.9rem 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.85rem;
+    outline: none;
+    transition: border-color 0.3s;
+    resize: none;
+  }
+
+  .contact-form input:focus,
+  .contact-form textarea:focus { border-color: var(--gold); }
+
+  .contact-form input::placeholder,
+  .contact-form textarea::placeholder { color: #9ca3af; }
+
+  /* FOOTER */
+  footer {
+    background: var(--navy);
+    padding: 3rem 4rem;
+    border-top: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  footer .logo-main { font-size: 1.1rem; }
+
+  .footer-copy {
+    font-size: 0.8rem;
+    color: rgba(255,255,255,0.70);
+  }
+
+  /* SCROLL ANIMATIONS */
+  .reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.7s ease;
+  }
+  .reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  @media (max-width: 900px) {
+    nav { padding: 1rem 1.5rem; }
+    .nav-links { display: none; }
+    section { padding: 4rem 1.5rem; }
+    .hero { padding: 0 1.5rem; grid-template-columns: 1fr; gap: 2rem; }
+    .hero-stats { right: 1.5rem; bottom: 2rem; gap: 1.5rem; }
+    .about { grid-template-columns: 1fr; gap: 3rem; }
+    .contact-section { grid-template-columns: 1fr; gap: 3rem; }
+    .modal-grid { grid-template-columns: 1fr; }
+    footer { flex-direction: column; gap: 1rem; text-align: center; }
+  }
+
+  /* CONTACT TEXT OVERRIDES */
+  #contact, #contact p, #contact a, #contact .contact-item, #contact .contact-label{ color: var(--navy) !important; }
+  #contact .muted{ color: var(--navy) !important; opacity: 0.92; }
+
+  /* HEADLINES */
+  h1, h2, h3, h4, .section-title, .product-title, .modal-title, .feature-title{ color: var(--navy); }
+  strong{ color: var(--navy); }
+
+
+
+  /* Enforce navy headlines */
+  h1, h2, h3, h4, .section-title, .products-header h2, .contact-section h2, .modal-title { color: var(--navy); }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="logo">
+    <div class="logo-row">
+      <img class="logo-icon" src="assets/img_c15bacb038.png" alt="Victory Global Materials logo">
+      <span class="logo-main">VICTORY GLOBAL</span>
+    </div>
+    <span class="logo-sub">VICTORY FOR EVERY PROJECT</span>
+  </div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#vision">Vision</a></li>
+    <li><a href="#products">Products</a></li>
+    <li><a href="#partners">Partners</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <a href="#contact" class="nav-cta">Get a Quote</a>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-content">
+    <h1>Global Reach <br>Premium Pipes <br><em>Benefit the World</em></h1>
+    <p class="hero-sub">Directly integrated with the Guangdong-Shenzhen industrial supply chain. Stable quality. Competitive pricing. Technical support for contractors, developers, and engineers across Vietnam's construction sector.</p>
+    <div class="hero-btns">
+      <a href="#contact" class="btn-primary">Get a Quote Now</a>
+      <a href="#products" class="btn-outline">View Products</a>
+    </div>
+  </div>
+
+  <div class="hero-media">
+    <div class="hero-media-card" aria-label="Product image carousel">
+      <img id="heroRotator" class="hero-rotator" alt="Featured product image" src="" loading="eager">
+    </div>
+  </div>
+
+  <div class="hero-stats">
+    <div class="stat">
+      <div class="stat-num">50+</div>
+      <div class="stat-label">Year Lifespan</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">CE</div>
+      <div class="stat-label">ISO Certified</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">10+</div>
+      <div class="stat-label">Product Lines</div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="about-text reveal">
+    <div class="section-tag">About</div>
+    <h2 class="section-title">Victory<br>Global Materials</h2>
+    <div class="divider"></div>
+    <p>Victory Global Materials is a professional provider of engineering-grade piping systems focused on the Vietnam construction and home improvement market.</p>
+    <p>Through direct integration with the Guangdong Shenzhen high-end building materials industrial cluster, we connect Vietnam projects with certified PVC, PE, and 304/304L/316L stainless steel piping solutions.</p>
+    <p>With nationwide delivery across Vietnam, we support contractors, developers, MEP engineers, and architects with reliable performance, professional service, and long-term project stability.</p>
+  </div>
+  <div class="about-features reveal">
+    <div class="feature-card">      <div class="feature-title">Guangdong Supply Chain</div>
+      <div class="feature-desc">Factory-direct integration ensuring stable quality, controlled production standards, and competitive pricing.</div>
+    </div>
+    <div class="feature-card">      <div class="feature-title">Engineering Support</div>
+      <div class="feature-desc">Product specification guidance, material optimization, and full piping system solutions.</div>
+    </div>
+    <div class="feature-card">      <div class="feature-title">Vietnam Delivery</div>
+      <div class="feature-desc">Efficient logistics coordination for projects across major cities and provinces nationwide.</div>
+    </div>
+    <div class="feature-card">      <div class="feature-title">International Standards</div>
+      <div class="feature-desc">CE / ISO certified products compatible with Vietnam engineering regulations.</div>
+    </div>
+  </div>
+</section>
+
+
+<!-- VISION -->
+<section class="about" id="vision" style="background: var(--cream);">
+  <div class="about-text reveal">
+    <div class="section-tag">Vision</div>
+    <h2 class="section-title">What We Stand For</h2>
+    <div class="divider"></div>
+    <p>We believe long-term trust is built by doing the right thing, every day—from sourcing and production to delivery and after-sales support.</p>
+    <p>Our vision is to become a reliable cross-border materials partner for Vietnam, connecting projects with certified piping solutions through a stable Guangdong · Shenzhen supply chain.</p>
+  </div>
+  <div class="about-features reveal">
+    <div class="feature-card">      <div class="feature-title">Integrity as the foundation</div>
+      <div class="feature-desc">Transparent specifications, honest recommendations, and accountable delivery.</div>
+    </div>
+    <div class="feature-card">      <div class="feature-title">Quality as the root</div>
+      <div class="feature-desc">Stable factory standards and consistent inspection to support real projects.</div>
+    </div>
+    <div class="feature-card">      <div class="feature-title">Customer first</div>
+      <div class="feature-desc">Responsive service, technical guidance, and solutions that fit your budget and timeline.</div>
+    </div>
+    <div class="feature-card">      <div class="feature-title">Professionalism and efficiency</div>
+      <div class="feature-desc">Fast quotation, clear documentation, and efficient nationwide logistics in Vietnam.</div>
+    </div>
+    <div class="feature-card" style="grid-column: 1 / -1;">      <div class="feature-title">Mutual success and long-term vision</div>
+      <div class="feature-desc">We grow with our partners—helping projects succeed today and building lasting cooperation for tomorrow.</div>
+    </div>
+  </div>
+</section>
+
+
+<!-- PRODUCTS -->
+<section class="products-section" id="products">
+  <div class="products-header reveal">
+    <div class="section-tag">Product Range</div>
+    <h2 class="section-title">Complete Piping System Solutions</h2>
+    <div class="divider"></div>
+  </div>
+
+  <div class="cat-tabs reveal">
+    <button class="cat-tab active" onclick="switchCat('water', this)">Water Supply</button>
+    <button class="cat-tab" onclick="switchCat('drainage', this)">Drainage</button>
+    <button class="cat-tab" onclick="switchCat('gas', this)">Gas Supply</button>
+    <button class="cat-tab" onclick="switchCat('electrical', this)">Electrical</button>
+  </div>
+
+  <!-- WATER SUPPLY -->
+  <div class="product-category active" id="cat-water">
+    <div class="products-grid">
+      <div class="product-card" onclick="openModal('hdpe_water')">
+        <div class="product-img-wrap">
+          <img class="product-img" src="assets/img_c584a177eb.jpg" alt="HDPE Water Supply Pipe" loading="lazy">
+        </div>
+        <div class="product-info">
+          <div class="product-cat-label">Water Supply</div>
+          <div class="product-name">HDPE Water Supply Pipe</div>
+          <div class="product-desc">PE80/PE100 — engineered for municipal and building water systems with ≥50 year service life.</div>
+          <div class="product-tags">
+            <span class="tag">PE80 / PE100</span>
+            <span class="tag">Butt Fusion</span>
+            <span class="tag">Electrofusion</span>
+          </div>
+        </div>
+      </div>
+      <div class="product-card" onclick="openModal('ppr_water')">
+        <div class="product-img-wrap">
+          <img class="product-img" src="assets/img_3315b2a634.png" alt="PP-R Water Pipe" loading="lazy">
+        </div>
+        <div class="product-info">
+          <div class="product-cat-label">Water Supply</div>
+          <div class="product-name">PP-R Water Pipe & Fittings</div>
+          <div class="product-desc">Designed for hot and cold water systems with homogeneous heat fusion jointing. Up to 2.5MPa.</div>
+          <div class="product-tags">
+            <span class="tag">Hot & Cold</span>
+            <span class="tag">2.5MPa</span>
+            <span class="tag">Full Fittings</span>
+          </div>
+        </div>
+      </div>
+      <div class="product-card" onclick="openModal('pvc_water')">
+        <div class="product-img-wrap">
+          <img class="product-img" src="assets/img_569e46eddb.jpg" alt="PVC-U Water Pipe" loading="lazy">
+        </div>
+        <div class="product-info">
+          <div class="product-cat-label">Water Supply</div>
+          <div class="product-name">PVC-U Water Supply Pipe</div>
+          <div class="product-desc">No plasticizers or heavy metals. 20mm–630mm, 0.63–2.5MPa. ISO 1452-2 compliant.</div>
+          <div class="product-tags">
+            <span class="tag">ISO 1452-2</span>
+            <span class="tag">BS 6920</span>
+            <span class="tag">Potable Water</span>
+          </div>
+        </div>
+      </div>
+      <div class="product-card" onclick="openModal('ss_water')">
+        <div class="product-img-wrap">
+          <img class="product-img" src="assets/img_4dd368fa67.png" alt="Stainless Steel Pipe" loading="lazy">
+        </div>
+        <div class="product-info">
+          <div class="product-cat-label">Water Supply</div>
+          <div class="product-name">Stainless Steel Water Pipe</div>
+          <div class="product-desc">304 / 304L / 316L grades. DN10–DN300. Premium drinking water and architectural applications.</div>
+          <div class="product-tags">
+            <span class="tag">304 / 316L</span>
+            <span class="tag">DN10–DN300</span>
+            <span class="tag">Hospitals</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- DRAINAGE -->
+  <div class="product-category" id="cat-drainage">
+    <div class="products-grid">
+      <div class="product-card" onclick="openModal('hdpe_corrugated')">
+        <div class="product-img-wrap">
+          <img class="product-img" src="assets/img_de61071319.png" alt="HDPE Double-Wall Corrugated" loading="lazy">
+        </div>
+        <div class="product-info">
+          <div class="product-cat-label">Drainage</div>
+          <div class="product-name">HDPE Double-Wall Corrugated Pipe</div>
+          <div class="product-desc">Smooth inner wall with corrugated outer wall. 110–800mm. SN4/SN8 ring stiffness.</div>
+          <div class="product-tags">
+            <span class="tag">SN4 / SN8</span>
+            <span class="tag">110–800mm</span>
+            <span class="tag">Buried</span>
+          </div>
+        </div>
+      </div>
+      <div class="product-card" onclick="openModal('hdpe_spiral')">
+        <div class="product-img-wrap">
+          <img class="product-img" src="assets/img_0c79fe4751.png" alt="HDPE Spiral Wound" loading="lazy">
+        </div>
+        <div class="product-info">
+          <div class="product-cat-label">Drainage</div>
+          <div class="product-name">HDPE Spiral Wound Pipe – Type B (Krah)</div>
+          <div class="product-desc">Large-diameter structured wall pipe. DN200–DN3000. Ring stiffness up to 20kN/m².</div>
+          <div class="product-tags">
+            <span class="tag">DN200–3000</span>
+            <span class="tag">Krah Type</span>
+            <span class="tag">Municipal</span>
+          </div>
+        </div>
+      </div>
+      <div class="product-card" onclick="openModal('pvc_drain')">
+        <div class="product-img-wrap">
+          <img class="product-img" src="assets/img_012fd3a8bb.png" alt="PVC-U Drainage" loading="lazy">
+        </div>
+        <div class="product-info">
+          <div class="product-cat-label">Drainage</div>
+          <div class="product-name">PVC-U Drainage Pipe</div>
+          <div class="product-desc">For gravity drainage inside buildings and underground. 32–630mm. ISO 3633.</div>
+          <div class="product-tags">
+            <span class="tag">ISO 3633</span>
+            <span class="tag">32–630mm</span>
+            <span class="tag">Gravity Flow</span>
+          </div>
+        </div>
+      </div>
+      <div class="product-card" onclick="openModal('same_floor')">
+        <div class="product-img-wrap">
+          <img class="product-img" src="assets/img_4418fcb712.jpg" alt="Same Floor Drainage" loading="lazy">
+        </div>
+        <div class="product-info">
+          <div class="product-cat-label">Drainage</div>
+          <div class="product-name">Same Floor Drainage System</div>
+          <div class="product-desc">Modern HDPE system — branch pipes connect without penetrating slabs. Improved hygiene and maintenance.</div>
+          <div class="product-tags">
+            <span class="tag">No Slab Penetration</span>
+            <span class="tag">High-Rise</span>
+            <span class="tag">HDPE</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- GAS -->
+  <div class="product-category" id="cat-gas">
+    <div class="products-grid">
+      <div class="product-card" onclick="openModal('hdpe_gas')">
+        <div class="product-img-wrap">
+          <img class="product-img" src="assets/img_f1a373b700.png" alt="HDPE Gas Pipe" loading="lazy">
+        </div>
+        <div class="product-info">
+          <div class="product-cat-label">Gas Supply</div>
+          <div class="product-name">HDPE Gas Pipe</div>
+          <div class="product-desc">Designed for gas transport at -20°C to 40°C. Max long-term pressure ≤0.7MPa. Fusion jointing.</div>
+          <div class="product-tags">
+            <span class="tag">≤0.7MPa</span>
+            <span class="tag">Fusion Joint</span>
+            <span class="tag">Urban Gas</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ELECTRICAL -->
+  <div class="product-category" id="cat-electrical">
+    <div class="products-grid">
+      <div class="product-card" onclick="openModal('pvc_conduit')">
+        <div class="product-img-wrap">
+          <img class="product-img" src="assets/img_3cb3ad3e0d.png" alt="PVC Cable Trunking" loading="lazy">
+        </div>
+        <div class="product-info">
+          <div class="product-cat-label">Electrical Conduit</div>
+          <div class="product-name">PVC Cable Trunking & Electrical Conduit</div>
+          <div class="product-desc">Safe cable protection and electrical insulation for residential and commercial buildings.</div>
+          <div class="product-tags">
+            <span class="tag">Flame Retardant</span>
+            <span class="tag">Self-Extinguishing</span>
+            <span class="tag">Impact Resistant</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PARTNERS -->
+<section class="partners-section" id="partners">
+  <div class="reveal">
+    <div class="section-tag">Strategic Manufacturing Partners</div>
+    <h2 class="section-title">Guangdong Shenzhen Industrial Cluster</h2>
+    <div class="divider" style="margin:0 auto 1rem;"></div>
+    <p style="color:var(--gray); font-size:0.9rem; max-width:500px; margin:0 auto;">Direct integration with certified manufacturers ensuring production stability, quality control, and competitive cost structure.</p>
+  </div>
+  <div class="partners-grid reveal">
+    <div class="partner-chip partner-logo"><img src="assets/LESSO%20LOGO.png" alt="China Lesso logo" loading="lazy"></div>
+    <div class="partner-chip partner-logo"><img src="assets/RIFENG%20LOGO.png" alt="Rifeng logo" loading="lazy"></div>
+    <div class="partner-chip partner-logo"><img src="assets/Zhongcai%20Pipe.png" alt="Zhongcai Pipes logo" loading="lazy"></div>
+    <div class="partner-chip partner-logo"><img src="assets/KUANYU%20STAINLESS%20STEEL%20LOGO.png" alt="Kuanyu Stainless Steel logo" loading="lazy"></div>
+    <div class="partner-chip partner-logo"><img src="assets/Yuexing%20Pipes.png" alt="Yuexing Pipe logo" loading="lazy"></div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact-section" id="contact">
+  <div class="reveal">
+    <div class="section-tag">Get In Touch</div>
+    <h2 class="section-title">Start Your Project Consultation</h2>
+    <div class="divider"></div>
+    <div class="contact-info">
+      <p><strong>Victory Global Materials</strong></p>
+      <br>
+      <p><strong>Address:</strong> 1703B-04, Dabaihui Plaza<br>Futian District, Shenzhen<br>Guangdong, China</p>
+      <br>
+      <p><strong>Email:</strong> info@victory-global.cn</p>
+      <p><strong>Tel / WhatsApp / Zalo:</strong> +86 18664333510</p>
+      <br>
+      <p style="color:var(--gold);">🚚 Nationwide delivery across Vietnam</p>
+    </div>
+  </div>
+  <div class="reveal">
+    <form class="contact-form" action="https://formsubmit.co/info@victory-global.cn" method="POST">
+
+  <!-- spam protection -->
+  <input type="hidden" name="_captcha" value="false">
+  <input type="text" name="_honey" style="display:none">
+
+  <!-- email subject -->
+  <input type="hidden" name="_subject" value="New enquiry from Victory Global Materials website">
+
+  <!-- redirect page after submission -->
+  <input type="hidden" name="_next" value="thank-you.html">
+
+  <input type="text" name="name" placeholder="Your Name / Name" required>
+
+  <input type="email" name="email" placeholder="Email Address" required>
+
+  <input type="text" name="company" placeholder="Company / Project">
+
+  <textarea name="message" rows="5" placeholder="Project requirements or product enquiry..." required></textarea>
+
+  <button type="submit" class="btn-primary" style="align-self:flex-start;">Send Enquiry →</button>
+
+</form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="logo">
+    <div class="logo-row">
+      <img class="logo-icon" src="assets/img_c15bacb038.png" alt="Victory Global Materials logo">
+      <span class="logo-main">VICTORY GLOBAL</span>
+    </div>
+    <span class="logo-sub">Engineering Piping Solutions · Vietnam</span>
+  </div>
+  <div class="footer-copy">© 2025 Victory Global Materials · Guangdong Shenzhen</div>
+</footer>
+
+<!-- PRODUCT MODAL -->
+<div class="modal-overlay" id="modal" onclick="closeModalOutside(event)">
+  <div class="modal" id="modalContent">
+    <button class="modal-close" onclick="closeModal()">✕</button>
+    <img class="modal-img" id="modalImg" src="" alt="">
+    <div class="modal-body">
+      <div class="modal-cat" id="modalCat"></div>
+      <div class="modal-title" id="modalTitle"></div>
+      <div class="modal-divider"></div>
+      <div class="modal-grid">
+        <div class="modal-section">
+          <h4>Overview</h4>
+          <p id="modalOverview"></p>
+        </div>
+        <div class="modal-section">
+          <h4>Applications</h4>
+          <ul id="modalApps"></ul>
+        </div>
+        <div class="modal-section">
+          <h4>Key Advantages</h4>
+          <ul id="modalAdvs"></ul>
+        </div>
+        <div class="modal-section">
+          <h4>Specifications</h4>
+          <p id="modalSpecs"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+const IMGS = {
+  hdpe_water: "assets/img_c584a177eb.jpg",
+  ppr_water: "assets/img_3315b2a634.png",
+  pvc_water: "assets/img_569e46eddb.jpg",
+  ss_water: "assets/img_4dd368fa67.png",
+  hdpe_corrugated: "assets/img_de61071319.png",
+  hdpe_spiral: "assets/img_0c79fe4751.png",
+  pvc_drain: "assets/img_012fd3a8bb.png",
+  same_floor: "assets/img_4418fcb712.jpg",
+  hdpe_gas: "assets/img_f1a373b700.png",
+  pvc_conduit: "assets/img_3cb3ad3e0d.png"
+};
+
+const PRODUCTS = {
+  hdpe_water: {
+    cat: 'Water Supply',
+    name: 'HDPE Water Supply Pipe',
+    overview: 'HDPE (PE80/PE100) water supply pipes engineered for municipal and building water systems. Flexibility, impact resistance, and corrosion resistance make them ideal for buried and long-distance installations using butt fusion, socket fusion, and electrofusion technology.',
+    apps: ['Municipal water supply networks', 'Residential and commercial water systems', 'Buried pipelines in housing estates and industrial zones', 'Industrial water treatment systems'],
+    advs: ['≥50 years service life', 'Hygienic and non-toxic', 'Chemical and electrochemical corrosion resistance', 'Smooth inner wall, high flow efficiency', 'Seismic and impact resistant', 'Fusion joints stronger than pipe body'],
+    specs: 'Material: PE80 / PE100 | Joining: Butt Fusion, Socket Fusion, Electrofusion | Standards: ISO 4427 | Service Life: ≥50 years'
+  },
+  ppr_water: {
+    cat: 'Water Supply',
+    name: 'PP-R Water Pipe & Fittings',
+    overview: 'PP-R pipes designed for hot and cold water systems with homogeneous heat fusion jointing. Complete fittings range including valves, elbows, tees, and reducers for full system integration.',
+    apps: ['Cold & hot water supply', 'Radiant floor heating systems', 'Purified water pipelines', 'Central air-conditioning systems'],
+    advs: ['Hygienic green material', 'Fast heat fusion installation', 'Thermal insulation efficiency', 'High pressure strength up to 2.5MPa', 'Smooth interior reduces energy loss', 'Corrosion and scaling resistant'],
+    specs: 'Pressure: up to 2.5MPa | Temperature: -20°C to +95°C | Fittings: Complete range | Standards: ISO 15874'
+  },
+  pvc_water: {
+    cat: 'Water Supply',
+    name: 'PVC-U Water Supply Pipe',
+    overview: 'Unplasticized PVC water pipes containing no plasticizers or heavy metals. Designed for potable water systems offering high strength, low friction flow, and long-term durability. Size 20mm–630mm.',
+    apps: ['Municipal water systems', 'Residential & commercial water supply', 'Industrial liquid transportation', 'Irrigation networks'],
+    advs: ['Acid/alkali/salt corrosion resistance', 'Lightweight and economical installation', 'Smooth inner wall, high flow capacity', '50+ years service life', 'Recyclable material'],
+    specs: 'Size: 20mm–630mm | Pressure: 0.63–2.5MPa | Standards: ISO 1452-2, BS 6920 | Material: PVC-U (no heavy metals)'
+  },
+  ss_water: {
+    cat: 'Water Supply',
+    name: 'Stainless Steel Water Pipe (304/304L/316L)',
+    overview: 'Globally recognized premium drinking water material. Non-porous structure prevents bacterial growth ensuring long-term hygiene. Available in 304, 304L, and 316L grades for standard and high-corrosion environments.',
+    apps: ['Hospitals and hotels', 'Residential villas', 'Municipal water systems', 'Water treatment plants'],
+    advs: ['Superior hygiene — prevents bacterial growth', 'High corrosion resistance (especially 316L)', 'Elegant architectural finish', 'Long-term structural stability', 'High pressure performance'],
+    specs: 'Diameter: DN10–DN300 | Wall thickness: 0.8–4.5mm | Grades: 304 / 304L / 316L | Connection: Press-fit or welded'
+  },
+  hdpe_corrugated: {
+    cat: 'Drainage',
+    name: 'HDPE Double-Wall Corrugated Pipe',
+    overview: 'Smooth inner wall with corrugated outer wall structure enhances ring stiffness and flow performance. Designed for buried drainage systems with superior load-bearing capacity.',
+    apps: ['Municipal sewage', 'Stormwater drainage', 'Agricultural irrigation', 'Underground cable protection'],
+    advs: ['High ring stiffness SN4/SN8', 'Corrosion resistant', 'Lightweight installation', 'Smooth flow efficiency', 'UV resistant', 'Durable for buried use'],
+    specs: 'Size: 110–800mm | Ring Stiffness: SN4 / SN8 | Material: HDPE | Joining: Bell-and-spigot with rubber seal'
+  },
+  hdpe_spiral: {
+    cat: 'Drainage',
+    name: 'HDPE Spiral Wound Pipe – Type B (Krah)',
+    overview: 'Large-diameter structured wall pipe produced through spiral winding technology. Smooth inner wall and ribbed outer wall ensure structural strength and flexibility for major infrastructure.',
+    apps: ['Municipal drainage', 'Infrastructure projects', 'Hydraulic engineering', 'Environmental engineering'],
+    advs: ['Ring stiffness up to 20kN/m²', 'Reliable electrofusion joint system', 'Wide diameter range DN200–DN3000', 'Excellent chemical stability', 'High structural stability'],
+    specs: 'Diameter: DN200–DN3000 | Ring Stiffness: up to SN20 (20kN/m²) | Joining: Electrofusion | Production: Spiral winding'
+  },
+  pvc_drain: {
+    cat: 'Drainage',
+    name: 'PVC-U Drainage Pipe',
+    overview: 'Designed for gravity drainage systems inside buildings and underground installations. Smooth interior reduces blockage risk and ensures reliable long-term drainage performance.',
+    apps: ['Internal soil & waste systems', 'Rainwater drainage', 'Buried gravity pipelines', 'Building drainage systems'],
+    advs: ['High flow capacity', 'Corrosion resistant', 'Cost-effective installation', '50+ year service life', 'Recyclable material'],
+    specs: 'Size: 32–630mm | Standard: ISO 3633 | Material: PVC-U | Joining: Solvent cement or rubber ring'
+  },
+  same_floor: {
+    cat: 'Drainage',
+    name: 'Same Floor Drainage System',
+    overview: 'Modern HDPE same-floor drainage system allows branch pipes to connect without penetrating floor slabs, eliminating cross-floor interference and improving sanitation and maintenance access.',
+    apps: ['High-rise residential', 'Apartments & condominiums', 'Modern bathroom design projects', 'Hotel & hospitality'],
+    advs: ['No slab penetration required', 'Reduced structural damage', 'Easier maintenance access', 'Improved hygiene standards', 'Optimized building layout'],
+    specs: 'Material: HDPE | System: Below-floor manifold | Installation: Same-floor only | Components: Trap, manifold, floor drain'
+  },
+  hdpe_gas: {
+    cat: 'Gas Supply',
+    name: 'HDPE Gas Pipe',
+    overview: 'Engineered for gas transportation at -20°C to 40°C with max long-term operating pressure ≤0.7MPa. Fusion joint technology ensures leak-free safety for residential and urban gas distribution.',
+    apps: ['Urban gas distribution networks', 'Residential gas systems', 'Industrial gas pipelines', 'Commercial gas supply'],
+    advs: ['Chemical and corrosion resistant', 'Smooth interior, low pressure loss', 'Flexible coil supply available', 'Lightweight installation', '50+ year lifespan', 'Environmentally friendly'],
+    specs: 'Max Pressure: ≤0.7MPa | Temperature: -20°C to +40°C | Color: Black with yellow stripe | Joining: Butt fusion / Electrofusion'
+  },
+  pvc_conduit: {
+    cat: 'Electrical Conduit',
+    name: 'PVC Cable Trunking & Electrical Conduit',
+    overview: 'Complete PVC cable management system providing safe cable protection and electrical insulation. Includes trunking for surface installations and conduit for concealed concrete installations in commercial and residential projects.',
+    apps: ['Surface wiring systems', 'Concealed concrete installations', 'Commercial projects', 'Residential buildings'],
+    advs: ['Snap-lock assembly', 'Flame retardant (self-extinguishing)', 'High insulation performance', 'Impact resistant', 'Moisture & corrosion resistant', 'Easy bending'],
+    specs: 'Material: PVC | Rating: Flame retardant (UL94 V-0) | Temperature: -5°C to +60°C | Installation: Surface or concealed'
+  }
+};
+
+function switchCat(cat, btn) {
+  document.querySelectorAll('.product-category').forEach(el => el.classList.remove('active'));
+  document.querySelectorAll('.cat-tab').forEach(el => el.classList.remove('active'));
+  document.getElementById('cat-' + cat).classList.add('active');
+  btn.classList.add('active');
+}
+
+function openModal(key) {
+  const p = PRODUCTS[key];
+  const img = IMGS[key];
+  document.getElementById('modalImg').src = img;
+  document.getElementById('modalCat').textContent = p.cat;
+  document.getElementById('modalTitle').textContent = p.name;
+  document.getElementById('modalOverview').textContent = p.overview;
+  document.getElementById('modalApps').innerHTML = p.apps.map(a => `<li>${a}</li>`).join('');
+  document.getElementById('modalAdvs').innerHTML = p.advs.map(a => `<li>${a}</li>`).join('');
+  document.getElementById('modalSpecs').textContent = p.specs;
+  document.getElementById('modal').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeModal() {
+  document.getElementById('modal').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+function closeModalOutside(e) {
+  if (e.target === document.getElementById('modal')) closeModal();
+}
+
+// Scroll reveal
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) entry.target.classList.add('visible');
+  });
+}, { threshold: 0.1 });
+
+document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+// ESC to close
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+</script>
+
+
+<!-- Floating Chat Buttons -->
+<div class="chat-fab" aria-label="Chat buttons">
+  <!-- Replace # with your real Zalo / WhatsApp links -->
+  <a class="zalo" href="https://zalo.me/8618664333510" target="_blank" rel="noopener" aria-label="Chat on Zalo" title="Chat on Zalo"><img src="assets/img_9a2eeddc43.png" alt="Zalo" class="fab-icon"></a>
+  <a class="wa" href="https://wa.me/8618664333510" target="_blank" rel="noopener" aria-label="Chat on WhatsApp" title="Chat on WhatsApp"><img src="assets/img_a640eb27ac.png" alt="WhatsApp" class="fab-icon"></a>
+</div>
+
+
+<script>
+  // Hero product image rotator
+  (function() {
+    const heroEl = document.getElementById('heroRotator');
+    if (!heroEl) return;
+
+    const heroImages = ['assets/img_0c79fe4751.png', 'assets/img_3315b2a634.png', 'assets/img_569e46eddb.jpg', 'assets/img_4dd368fa67.png'];
+    if (!heroImages.length) return;
+
+    let idx = 0;
+    heroEl.src = heroImages[0];
+
+    setInterval(() => {
+      heroEl.classList.add('fade-out');
+      setTimeout(() => {
+        idx = (idx + 1) % heroImages.length;
+        heroEl.src = heroImages[idx];
+        heroEl.classList.remove('fade-out');
+      }, 220);
+    }, 3000);
+  })();
+</script>
+
+</body>
+</html>
