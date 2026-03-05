@@ -1161,17 +1161,19 @@
     </div>
   </div>
   <div class="reveal">
-    <form class="contact-form" action="https://junweijayli-cell.github.io/VictoryGlobalMaterials/thank-you.html">
+    <form class="contact-form" action="https://formsubmit.co/info@victory-global.cn" method="POST">
 
-  <!-- spam protection -->
-  <input type="hidden" name="_captcha" value="false">
-  <input type="text" name="_honey" style="display:none">
-
-  <!-- email subject -->
+  <!-- Email subject -->
   <input type="hidden" name="_subject" value="New enquiry from Victory Global Materials website">
 
-  <!-- redirect page after submission -->
-  <input type="hidden" name="_next" value="thank-you.html">
+  <!-- Redirect after submit -->
+  <input type="hidden" name="_next" value="https://junweijayli-cell.github.io/VictoryGlobalMaterials/thank-you.html">
+
+  <!-- Disable captcha -->
+  <input type="hidden" name="_captcha" value="false">
+
+  <!-- Anti-spam -->
+  <input type="text" name="_honey" style="display:none">
 
   <input type="text" name="name" placeholder="Your Name / Name" required>
 
@@ -1181,7 +1183,9 @@
 
   <textarea name="message" rows="5" placeholder="Project requirements or product enquiry..." required></textarea>
 
-  <button type="submit" class="btn-primary" style="align-self:flex-start;">Send Enquiry →</button>
+  <button type="submit" class="btn-primary" style="align-self:flex-start;">
+    Send Enquiry →
+  </button>
 
 </form>
   </div>
