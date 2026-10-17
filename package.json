@@ -1,0 +1,9 @@
+{
+  "name": "victory-global-materials",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node _source/scripts/build.mjs --production --out .",
+    "check": "python _source/scripts/check-production.py --root ."
+  }
+}
