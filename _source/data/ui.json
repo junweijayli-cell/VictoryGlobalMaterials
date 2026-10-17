@@ -1,0 +1,404 @@
+{
+  "en": {
+    "htmlLang": "en",
+    "brandMain": "VICTORY GLOBAL",
+    "brandSub": "VICTORY FOR EVERY PROJECT",
+    "nav": [
+      "About",
+      "Products",
+      "Markets",
+      "Sourcing",
+      "Contact"
+    ],
+    "navCta": "Discuss Your Project",
+    "heroTitle": "Pipes &amp; Fittings<br>for <em>Southeast Asia</em> Projects",
+    "heroSub": "China-based product sourcing for contractors and procurement teams, with a focus on Malaysia and Singapore. Share your application, specifications and quantities so products, supporting documents and delivery arrangements can be reviewed.",
+    "heroBtns": [
+      "Discuss Project Requirements",
+      "Explore the Catalogue"
+    ],
+    "stats": [
+      "Catalogue families",
+      "Application groups",
+      "Regional focus"
+    ],
+    "aboutTag": "About",
+    "aboutTitle": "Victory<br>Global Materials",
+    "aboutPs": [
+      "Victory Global Materials is an independent trading company registered in China, developing pipes and fittings sourcing for Southeast Asia projects.",
+      "Our initial focus is PVC-U and HDPE piping and related products, together with stainless steel ranges, sourced through Chinese suppliers.",
+      "Malaysia is the initial business-development priority, starting with Johor. Singapore procurement enquiries and opportunities elsewhere in Southeast Asia are considered against actual project requirements."
+    ],
+    "aboutFeatures": [
+      [
+        "China-based sourcing",
+        "Discuss the selected manufacturer, model and procurement route for your project."
+      ],
+      [
+        "Project requirements",
+        "Share application details, drawings, specifications and quantities before product matching."
+      ],
+      [
+        "Delivery assessment",
+        "Provide the destination and required date so packaging, transport and purchasing responsibilities can be reviewed."
+      ],
+      [
+        "Document review",
+        "Request the selected product’s datasheet and evidence required by your project and destination."
+      ]
+    ],
+    "visionTag": "How enquiries work",
+    "visionTitle": "From Requirements<br>to a Reviewed Quotation",
+    "visionPs": [
+      "A catalogue is the start of a sourcing discussion. Product suitability, documents and commercial arrangements need to be checked for the actual project.",
+      "We aim to build long-term relationships through clear requirements and documented quotations. Enquiries from other Southeast Asian destinations are welcome for review."
+    ],
+    "visionFeatures": [
+      [
+        "1 · Define the requirement",
+        "Identify the buyer, application, material, connection method, dimensions and quantities."
+      ],
+      [
+        "2 · Review products and documents",
+        "Match the specification to a selected manufacturer and check the required evidence."
+      ],
+      [
+        "3 · Assess packaging and delivery",
+        "Review the destination, packed dimensions, handling, importer and delivery responsibilities."
+      ],
+      [
+        "4 · Confirm the quotation scope",
+        "Agree the product, documents, price basis, delivery scope and payment terms before a commitment."
+      ],
+      [
+        "5 · Proceed on confirmed terms",
+        "Establish purchasing and supply arrangements for the agreed order; stock, timing and local acceptance are not assumed."
+      ]
+    ],
+    "productsTag": "Product Range",
+    "productsTitle": "Explore Pipes & Fittings",
+    "categoryTabs": [
+      "Water Supply",
+      "Drainage",
+      "Gas Supply",
+      "Electrical"
+    ],
+    "partnersTag": "Sourcing references",
+    "partnersTitle": "Manufacturer Catalogues",
+    "partnersDesc": "Initial sourcing discussions draw on LESSO PVC/HDPE and Kuanyu stainless steel catalogue references. Manufacturer, model, resale terms and documents must be confirmed for each quotation; no authorized or exclusive distributor status is claimed.",
+    "contactTag": "Get In Touch",
+    "contactTitle": "Discuss Your Project Requirements",
+    "contactCompany": "Victory Global Materials",
+    "addressLabel": "Address:",
+    "addressHtml": "1703B-04, Dabaihui Plaza<br>Futian District, Shenzhen<br>Guangdong, China",
+    "emailLabel": "Email:",
+    "sendEnquiry": "Preview Enquiry →",
+    "footerSub": "China sourcing · Southeast Asia enquiries",
+    "footerCopy": "© 2026 Victory Global Materials · Guangdong Shenzhen",
+    "viewDetails": "VIEW DETAILS ↗",
+    "telephoneLabel": "Telephone:",
+    "wechatLabel": "WeChat:",
+    "whatsappLabel": "WhatsApp:",
+    "previewNote": "Beta preview: this form demonstrates the enquiry flow. No message will be sent.",
+    "formLabels": [
+      "Your name",
+      "Email address",
+      "Company / project",
+      "Project requirements",
+      "Destination country and city"
+    ],
+    "catalogueNote": "PVC-U, HDPE and stainless steel are the initial sourcing focus. All ten families below are catalogue references; selected models, availability and destination requirements need confirmation.",
+    "detailsNote": "Product detail pages are currently available in English.",
+    "heroEyebrow": "China sourcing · Malaysia & Singapore focus",
+    "destinationPlaceholder": "e.g. Johor Bahru, Malaysia",
+    "messagePlaceholder": "Application, product, specification, quantity and required documents",
+    "marketsTag": "Our regional focus",
+    "marketsTitle": "Malaysia, Singapore<br>and Southeast Asia",
+    "marketsIntro": "Malaysia, starting with Johor, is our initial development priority. Singapore enquiries focus on procurement and documentation requirements.",
+    "marketCards": [
+      {
+        "name": "Malaysia",
+        "focus": "Starting with Johor",
+        "description": "Discuss your application, specifications, quantities and purchasing route. Product documents and delivery arrangements are reviewed for the actual destination.",
+        "linkText": "Malaysia enquiries ↗"
+      },
+      {
+        "name": "Singapore",
+        "focus": "Procurement and documentation",
+        "description": "Start with project specifications, required evidence and purchasing arrangements. Catalogue products are not represented as an approved Singapore range.",
+        "linkText": "Singapore enquiry guide ↗"
+      }
+    ],
+    "otherMarketsTitle": "Other Southeast Asia enquiries",
+    "otherMarketsCopy": "Projects in Vietnam and other Southeast Asian markets are welcome for discussion. Tell us the country, city and project requirements; product eligibility and the supply route are reviewed case by case.",
+    "otherMarketsCta": "Discuss another destination ↗"
+  },
+  "vi": {
+    "htmlLang": "vi",
+    "brandMain": "VICTORY GLOBAL",
+    "brandSub": "THÀNH CÔNG CHO MỌI DỰ ÁN",
+    "nav": [
+      "Giới thiệu",
+      "Sản phẩm",
+      "Thị trường",
+      "Nguồn hàng",
+      "Liên hệ"
+    ],
+    "navCta": "Trao đổi dự án",
+    "heroTitle": "Ống &amp; Phụ Kiện<br>cho Dự Án <em>Đông Nam Á</em>",
+    "heroSub": "Tìm nguồn sản phẩm từ Trung Quốc cho nhà thầu và đội ngũ mua sắm, tập trung vào Malaysia và Singapore. Chia sẻ ứng dụng, quy cách và số lượng để xem xét sản phẩm, hồ sơ và phương án giao hàng.",
+    "heroBtns": [
+      "Trao đổi yêu cầu dự án",
+      "Khám phá danh mục"
+    ],
+    "stats": [
+      "Dòng trong danh mục",
+      "Nhóm ứng dụng",
+      "Khu vực mục tiêu"
+    ],
+    "aboutTag": "Giới thiệu",
+    "aboutTitle": "Victory<br>Global Materials",
+    "aboutPs": [
+      "Victory Global Materials là công ty thương mại độc lập đăng ký tại Trung Quốc, đang phát triển hoạt động tìm nguồn ống và phụ kiện cho dự án tại Đông Nam Á.",
+      "Trọng tâm ban đầu là ống PVC-U, HDPE và sản phẩm liên quan, cùng các dòng thép không gỉ từ nhà cung cấp Trung Quốc.",
+      "Malaysia là thị trường phát triển ưu tiên, bắt đầu tại Johor. Yêu cầu mua sắm từ Singapore và cơ hội tại các thị trường Đông Nam Á khác được xem xét theo nhu cầu thực tế của dự án."
+    ],
+    "aboutFeatures": [
+      [
+        "Nguồn hàng Trung Quốc",
+        "Trao đổi nhà sản xuất, mẫu sản phẩm và phương án mua hàng cho dự án."
+      ],
+      [
+        "Yêu cầu dự án",
+        "Cung cấp ứng dụng, bản vẽ, quy cách và số lượng trước khi đối chiếu sản phẩm."
+      ],
+      [
+        "Đánh giá giao hàng",
+        "Cung cấp địa điểm và thời gian yêu cầu để xem xét đóng gói, vận chuyển và trách nhiệm mua hàng."
+      ],
+      [
+        "Kiểm tra hồ sơ",
+        "Yêu cầu bảng thông số và bằng chứng theo dự án, sản phẩm và thị trường đích."
+      ]
+    ],
+    "visionTag": "Quy trình yêu cầu",
+    "visionTitle": "Từ Yêu Cầu<br>đến Báo Giá Được Xem Xét",
+    "visionPs": [
+      "Danh mục là bước đầu của trao đổi tìm nguồn hàng. Cần kiểm tra sự phù hợp, hồ sơ và điều kiện thương mại theo dự án thực tế.",
+      "Chúng tôi hướng tới hợp tác lâu dài thông qua yêu cầu rõ ràng và báo giá có tài liệu. Chào đón yêu cầu từ các thị trường Đông Nam Á khác để xem xét."
+    ],
+    "visionFeatures": [
+      [
+        "1 · Xác định yêu cầu",
+        "Xác định bên mua, ứng dụng, vật liệu, kiểu nối, kích thước và số lượng."
+      ],
+      [
+        "2 · Xem xét sản phẩm và hồ sơ",
+        "Đối chiếu quy cách với nhà sản xuất được chọn và kiểm tra bằng chứng cần thiết."
+      ],
+      [
+        "3 · Đánh giá đóng gói và giao hàng",
+        "Xem xét địa điểm, đóng gói, bốc dỡ, bên nhập khẩu và trách nhiệm giao hàng."
+      ],
+      [
+        "4 · Xác nhận phạm vi báo giá",
+        "Thống nhất sản phẩm, hồ sơ, cơ sở giá, giao hàng và thanh toán trước khi cam kết."
+      ],
+      [
+        "5 · Thực hiện theo điều kiện xác nhận",
+        "Thiết lập phương án cho đơn hàng đã thống nhất; không mặc định tồn kho, thời gian hay chấp thuận tại địa phương."
+      ]
+    ],
+    "productsTag": "Dòng sản phẩm",
+    "productsTitle": "Khám Phá Ống & Phụ Kiện",
+    "categoryTabs": [
+      "Cấp nước",
+      "Thoát nước",
+      "Cấp khí",
+      "Điện"
+    ],
+    "partnersTag": "Tham khảo nguồn hàng",
+    "partnersTitle": "Danh Mục Nhà Sản Xuất",
+    "partnersDesc": "Trao đổi ban đầu tham khảo danh mục PVC/HDPE của LESSO và thép không gỉ Kuanyu. Nhà sản xuất, mẫu sản phẩm, điều kiện bán lại và hồ sơ cần xác nhận theo báo giá; không tuyên bố là nhà phân phối được ủy quyền hay độc quyền.",
+    "contactTag": "Liên hệ",
+    "contactTitle": "Trao Đổi Yêu Cầu Dự Án",
+    "contactCompany": "Victory Global Materials",
+    "addressLabel": "Địa chỉ:",
+    "addressHtml": "1703B-04, Quảng trường Cổng Lớn<br>Quận Phúc Điền, Thâm Quyến<br>Quảng Đông, Trung Quốc",
+    "emailLabel": "Email:",
+    "sendEnquiry": "Xem trước yêu cầu →",
+    "footerSub": "Nguồn hàng Trung Quốc · Yêu cầu Đông Nam Á",
+    "footerCopy": "© 2026 Victory Global Materials · Quảng Đông Thâm Quyến",
+    "viewDetails": "XEM CHI TIẾT ↗",
+    "telephoneLabel": "Điện thoại:",
+    "wechatLabel": "WeChat:",
+    "whatsappLabel": "WhatsApp:",
+    "previewNote": "Bản beta: biểu mẫu này mô phỏng quy trình yêu cầu. Không có tin nhắn nào được gửi.",
+    "formLabels": [
+      "Họ tên",
+      "Địa chỉ email",
+      "Công ty / dự án",
+      "Yêu cầu dự án",
+      "Quốc gia và thành phố giao hàng"
+    ],
+    "catalogueNote": "Trọng tâm tìm nguồn ban đầu là PVC-U, HDPE và thép không gỉ. Mười dòng dưới đây là thông tin tham khảo; cần xác nhận mẫu sản phẩm, khả năng cung cấp và yêu cầu thị trường đích.",
+    "detailsNote": "Các trang chi tiết sản phẩm hiện có bằng tiếng Anh.",
+    "heroEyebrow": "Nguồn hàng Trung Quốc · Tập trung Malaysia & Singapore",
+    "destinationPlaceholder": "Ví dụ: Johor Bahru, Malaysia",
+    "messagePlaceholder": "Ứng dụng, sản phẩm, quy cách, số lượng và hồ sơ cần thiết",
+    "marketsTag": "Khu vực mục tiêu",
+    "marketsTitle": "Malaysia, Singapore<br>và Đông Nam Á",
+    "marketsIntro": "Malaysia, bắt đầu tại Johor, là ưu tiên phát triển ban đầu. Yêu cầu từ Singapore tập trung vào mua sắm và hồ sơ.",
+    "marketCards": [
+      {
+        "name": "Malaysia",
+        "focus": "Bắt đầu tại Johor",
+        "description": "Trao đổi ứng dụng, quy cách, số lượng và phương án mua hàng. Xem xét hồ sơ và giao hàng theo địa điểm thực tế.",
+        "linkText": "Yêu cầu tại Malaysia ↗"
+      },
+      {
+        "name": "Singapore",
+        "focus": "Mua sắm và hồ sơ",
+        "description": "Bắt đầu từ quy cách dự án, bằng chứng cần thiết và phương án mua hàng. Không tuyên bố danh mục được chấp thuận tại Singapore.",
+        "linkText": "Hướng dẫn Singapore ↗"
+      }
+    ],
+    "otherMarketsTitle": "Yêu cầu từ Đông Nam Á khác",
+    "otherMarketsCopy": "Chào đón trao đổi về dự án tại Việt Nam và các thị trường Đông Nam Á khác. Cung cấp quốc gia, thành phố và yêu cầu; xem xét điều kiện sản phẩm và phương án cung cấp theo từng trường hợp.",
+    "otherMarketsCta": "Trao đổi địa điểm khác ↗"
+  },
+  "zh": {
+    "htmlLang": "zh-CN",
+    "brandMain": "纬特利环球建材",
+    "brandSub": "成就每一个工程",
+    "nav": [
+      "关于我们",
+      "产品",
+      "市场",
+      "采购来源",
+      "联系我们"
+    ],
+    "navCta": "沟通项目需求",
+    "heroTitle": "管材与配件<br>面向<em>东南亚工程</em>",
+    "heroSub": "为承包商与采购团队对接中国产品来源，重点关注马来西亚与新加坡。请提供用途、规格和数量，以便核对产品、支持文件及交付安排。",
+    "heroBtns": [
+      "沟通项目需求",
+      "浏览产品目录"
+    ],
+    "stats": [
+      "目录系列",
+      "应用类别",
+      "区域重点"
+    ],
+    "aboutTag": "关于我们",
+    "aboutTitle": "纬特利<br>环球建材",
+    "aboutPs": [
+      "纬特利环球建材是一家在中国注册的独立贸易公司，正在发展面向东南亚项目的管材与配件采购业务。",
+      "初期重点为来自中国供应商的 PVC-U、HDPE 管材及相关产品，以及不锈钢系列。",
+      "马来西亚是初期业务发展重点，从柔佛州起步。新加坡采购询盘及其他东南亚市场机会，均按实际项目需求评估。"
+    ],
+    "aboutFeatures": [
+      [
+        "中国采购来源",
+        "沟通项目所需的制造商、产品型号及采购路线。"
+      ],
+      [
+        "项目需求",
+        "产品匹配前提供用途、图纸、规格及数量。"
+      ],
+      [
+        "交付评估",
+        "提供目的地及所需日期，以便核对包装、运输与采购责任。"
+      ],
+      [
+        "文件核对",
+        "索取具体产品的技术资料及项目和目的地所需的支持证据。"
+      ]
+    ],
+    "visionTag": "询价流程",
+    "visionTitle": "从项目需求<br>到核实后的报价",
+    "visionPs": [
+      "目录是采购沟通的起点。具体项目的产品适用性、支持文件和商业安排仍需核对。",
+      "我们希望通过清晰的需求与有据可查的报价建立长期合作，也欢迎其他东南亚目的地的询盘。"
+    ],
+    "visionFeatures": [
+      [
+        "1 · 明确需求",
+        "确认采购主体、用途、材料、连接方式、尺寸及数量。"
+      ],
+      [
+        "2 · 核对产品和文件",
+        "将需求与具体制造商产品对应，并检查所需支持证据。"
+      ],
+      [
+        "3 · 评估包装和交付",
+        "核对目的地、包装尺寸、搬运限制、进口方及交付责任。"
+      ],
+      [
+        "4 · 确认报价范围",
+        "承诺前协商产品、文件、计价基础、交付范围及付款条件。"
+      ],
+      [
+        "5 · 按确认条件推进",
+        "按约定订单落实采购和供货安排，不默认现货、时效或当地准入。"
+      ]
+    ],
+    "productsTag": "产品范围",
+    "productsTitle": "浏览管材与配件",
+    "categoryTabs": [
+      "给水",
+      "排水",
+      "燃气",
+      "电气"
+    ],
+    "partnersTag": "采购参考",
+    "partnersTitle": "制造商产品目录",
+    "partnersDesc": "初期沟通参考联塑 LESSO 的 PVC/HDPE 及宽裕 Kuanyu 的不锈钢目录。制造商、型号、转售条件和文件需逐次确认；不宣称获得授权或独家经销资格。",
+    "contactTag": "联系我们",
+    "contactTitle": "沟通您的项目需求",
+    "contactCompany": "纬特利环球建材",
+    "addressLabel": "地址：",
+    "addressHtml": "中国广东深圳市福田区<br>大百汇广场1703B-04<br>",
+    "emailLabel": "邮箱：",
+    "sendEnquiry": "预览询盘 →",
+    "footerSub": "中国采购 · 东南亚项目询盘",
+    "footerCopy": "© 2026 广东深圳纬特利环球建材",
+    "viewDetails": "查看详情 ↗",
+    "telephoneLabel": "电话：",
+    "wechatLabel": "微信：",
+    "whatsappLabel": "WhatsApp：",
+    "previewNote": "Beta 预览：此表单仅演示询盘流程，不会发送消息。",
+    "formLabels": [
+      "您的姓名",
+      "电子邮箱",
+      "公司 / 项目",
+      "项目需求",
+      "目的地国家与城市"
+    ],
+    "catalogueNote": "初期采购重点为 PVC-U、HDPE 及不锈钢。以下十个系列为目录参考，具体型号、供货情况和目的地要求需另行确认。",
+    "detailsNote": "产品详情页目前提供英文版本。",
+    "heroEyebrow": "中国采购 · 重点关注马来西亚与新加坡",
+    "destinationPlaceholder": "例如：马来西亚新山",
+    "messagePlaceholder": "用途、产品、规格、数量及所需文件",
+    "marketsTag": "区域重点",
+    "marketsTitle": "马来西亚、新加坡<br>及东南亚",
+    "marketsIntro": "马来西亚是初期业务发展重点，从柔佛州起步。新加坡询盘着重沟通采购与文件要求。",
+    "marketCards": [
+      {
+        "name": "马来西亚",
+        "focus": "从柔佛州起步",
+        "description": "沟通用途、规格、数量与采购路线，按实际目的地核对产品文件及交付安排。",
+        "linkText": "马来西亚项目询盘 ↗"
+      },
+      {
+        "name": "新加坡",
+        "focus": "采购与文件要求",
+        "description": "从项目规格、所需证据及采购安排开始，不将目录描述为已获新加坡认可的产品范围。",
+        "linkText": "新加坡询盘指南 ↗"
+      }
+    ],
+    "otherMarketsTitle": "其他东南亚项目询盘",
+    "otherMarketsCopy": "欢迎沟通越南及其他东南亚市场的项目。请提供国家、城市与项目需求；产品准入及供货路线按具体情况评估。",
+    "otherMarketsCta": "沟通其他目的地 ↗"
+  }
+}

@@ -1,0 +1,974 @@
+{
+  "sourceCommit": "59867d1feb9c489fd92a59706088e57a957dd978",
+  "reviewDate": "2026-10-17",
+  "canonicalOrigin": "https://victoryglobalmaterials.com",
+  "company": {
+    "name": "Victory Global Materials",
+    "email": "info@victory-global.cn",
+    "telephone": "+86 18664333510",
+    "telephoneUri": "tel:+8618664333510",
+    "wechat": "+86 18664333510",
+    "whatsapp": "+65 89736956",
+    "whatsappUrl": "https://wa.me/6589736956",
+    "logo": "assets/img_c15bacb038.png",
+    "address": "1703B-04, Dabaihui Plaza, Futian District, Shenzhen, Guangdong, China"
+  },
+  "categories": [
+    {
+      "key": "water",
+      "name": "Water Supply"
+    },
+    {
+      "key": "drainage",
+      "name": "Drainage"
+    },
+    {
+      "key": "gas",
+      "name": "Gas Supply"
+    },
+    {
+      "key": "electrical",
+      "name": "Electrical Conduit"
+    }
+  ],
+  "products": [
+    {
+      "key": "hdpe_water",
+      "slug": "hdpe-water-supply-pipe",
+      "category": "water",
+      "name": "HDPE Water Supply Pipe",
+      "image": "assets/img_c584a177eb.jpg",
+      "summary": "HDPE water supply pipe in PE80 and PE100 materials for municipal, building and buried water networks. This catalogue is a starting point for project sourcing enquiries; confirm the selected product, destination requirements and supporting documents.",
+      "cardSummary": "PE80 and PE100 piping for municipal, building and buried water networks, with fusion jointing options.",
+      "tags": [
+        "PE80 / PE100",
+        "Butt fusion",
+        "Electrofusion"
+      ],
+      "specifications": [
+        [
+          "Material options",
+          "PE80 / PE100"
+        ],
+        [
+          "Joining options",
+          "Butt fusion, socket fusion, electrofusion"
+        ]
+      ],
+      "applications": [
+        "Municipal water supply networks",
+        "Residential and commercial water systems",
+        "Buried pipelines in housing estates and industrial zones",
+        "Industrial water treatment systems"
+      ],
+      "selection": [
+        "Specify the required outside diameter, SDR or pressure class and quantities.",
+        "Confirm the fluid, operating temperature, design pressure and jointing method with the project engineer.",
+        "Request the selected manufacturer's datasheet and relevant water-contact documentation."
+      ],
+      "documents": [
+        "Selected grade and SDR datasheet",
+        "Dimensions and matching fittings schedule",
+        "Applicable water-contact and test documentation"
+      ],
+      "questions": [
+        {
+          "question": "What is the difference between PE80 and PE100 for my quotation?",
+          "answer": "PE80 and PE100 are the two material options listed in this catalogue. Identify the grade required by your project specification and provide the diameter and SDR or pressure class so the quotation can be checked against the selected pipe."
+        },
+        {
+          "question": "Which jointing options are listed?",
+          "answer": "The existing catalogue lists butt fusion, socket fusion and electrofusion. Confirm the chosen pipe size, fittings and jointing procedure for your project before ordering."
+        }
+      ],
+      "unconfirmed": [
+        "ISO 4427 compliance for the selected model",
+        "50-year service life and its operating conditions",
+        "Potable-water approval and joint-strength claims"
+      ],
+      "locale": {
+        "vi": {
+          "name": "Ống Cấp Nước HDPE",
+          "summary": "Ống PE80 và PE100 cho mạng cấp nước đô thị, công trình và đường ống chôn ngầm; có các phương án nối hàn.",
+          "tags": [
+            "PE80 / PE100",
+            "Hàn đối đầu",
+            "Hàn điện trở"
+          ]
+        },
+        "zh": {
+          "name": "HDPE 给水管",
+          "summary": "PE80 和 PE100 管道用于市政、建筑及埋地给水项目，可根据项目要求选择熔接方式。",
+          "tags": [
+            "PE80 / PE100",
+            "对接焊",
+            "电熔"
+          ]
+        }
+      }
+    },
+    {
+      "key": "ppr_water",
+      "slug": "ppr-water-pipe-fittings",
+      "category": "water",
+      "name": "PP-R Water Pipe & Fittings",
+      "image": "assets/img_3315b2a634.png",
+      "summary": "PP-R pipes and matching fittings for hot and cold water systems, using heat fusion jointing. The range includes valves, elbows, tees and reducers for building-project sourcing enquiries.",
+      "cardSummary": "PP-R pipes, valves, elbows, tees and reducers for hot and cold water systems with heat fusion jointing.",
+      "tags": [
+        "Hot & cold water",
+        "Heat fusion",
+        "Matching fittings"
+      ],
+      "specifications": [
+        [
+          "Material",
+          "PP-R"
+        ],
+        [
+          "Joining",
+          "Heat fusion"
+        ],
+        [
+          "Catalogue fittings",
+          "Valves, elbows, tees and reducers"
+        ],
+        [
+          "Catalogue pressure reference",
+          "Up to 2.5 MPa; confirm the selected class and temperature"
+        ]
+      ],
+      "applications": [
+        "Cold and hot water supply",
+        "Radiant floor heating systems",
+        "Purified water pipelines",
+        "Central air-conditioning systems"
+      ],
+      "selection": [
+        "Provide the design pressure and water temperature, including any heating duty.",
+        "Confirm pipe series, wall thickness and the matching fittings schedule.",
+        "Request the pressure-temperature rating for the selected product; the catalogue maximum is not a rating for every condition."
+      ],
+      "documents": [
+        "Pressure-temperature rating table",
+        "Pipe and fitting dimensions",
+        "Jointing instructions for the selected system"
+      ],
+      "questions": [
+        {
+          "question": "Does the catalogue pressure apply at every water temperature?",
+          "answer": "The existing catalogue lists up to 2.5 MPa, but it does not supply a model-specific pressure-temperature table. Request that table for the chosen pipe series and operating conditions before specifying the system."
+        },
+        {
+          "question": "Can pipes and fittings be quoted together?",
+          "answer": "This product family includes pipes and fittings such as valves, elbows, tees and reducers. Include a fittings schedule and quantities with your enquiry so the whole system can be reviewed."
+        }
+      ],
+      "unconfirmed": [
+        "ISO 15874 compliance for the selected model",
+        "Pressure-temperature relationship",
+        "Original -20 to +95 °C range and its conditions"
+      ],
+      "locale": {
+        "vi": {
+          "name": "Ống & Phụ Kiện PP-R",
+          "summary": "Ống và phụ kiện PP-R cho hệ thống nước nóng, lạnh, sử dụng nối hàn nhiệt. Xác nhận cấp áp lực và nhiệt độ theo sản phẩm đã chọn.",
+          "tags": [
+            "Nước nóng & lạnh",
+            "Hàn nhiệt",
+            "Phụ kiện"
+          ]
+        },
+        "zh": {
+          "name": "PP-R 给水管及配件",
+          "summary": "PP-R 管道及配套阀门、弯头、三通和异径件，用于冷热水系统，采用热熔连接。",
+          "tags": [
+            "冷热水",
+            "热熔",
+            "配套管件"
+          ]
+        }
+      }
+    },
+    {
+      "key": "pvc_water",
+      "slug": "pvc-u-water-supply-pipe",
+      "category": "water",
+      "name": "PVC-U Water Supply Pipe",
+      "image": "assets/img_569e46eddb.jpg",
+      "summary": "Unplasticized PVC piping for water supply and irrigation projects. The Victory Global Materials catalogue lists sizes from 20 to 630 mm and pressure classes from 0.63 to 2.5 MPa; confirm availability and suitability for the selected configuration.",
+      "cardSummary": "PVC-U piping for water supply and irrigation. Catalogue range: 20–630 mm; confirm the selected pressure class.",
+      "tags": [
+        "PVC-U",
+        "20–630 mm",
+        "Water supply"
+      ],
+      "specifications": [
+        [
+          "Material",
+          "PVC-U"
+        ],
+        [
+          "Catalogue size range",
+          "20–630 mm"
+        ],
+        [
+          "Catalogue pressure-class range",
+          "0.63–2.5 MPa; configuration dependent"
+        ]
+      ],
+      "applications": [
+        "Municipal water systems",
+        "Residential and commercial water supply",
+        "Industrial liquid transportation",
+        "Irrigation networks"
+      ],
+      "selection": [
+        "Provide the pipe diameter, pressure class and fittings quantities.",
+        "State the fluid and whether drinking-water contact is required.",
+        "Request product-specific water-contact evidence and the applicable project standard."
+      ],
+      "documents": [
+        "Selected pressure-class datasheet",
+        "Dimensions and fittings compatibility",
+        "Water-contact evidence where required"
+      ],
+      "questions": [
+        {
+          "question": "What sizes and pressure classes are listed?",
+          "answer": "The existing catalogue lists 20–630 mm and 0.63–2.5 MPa across this family. These are catalogue ranges rather than a promise that every size is available in every pressure class; specify both in your enquiry."
+        },
+        {
+          "question": "How should drinking-water suitability be checked?",
+          "answer": "State that the pipe will carry drinking water and request water-contact documentation for the selected manufacturer's product. Confirm the applicable project standard and the scope of the supporting evidence."
+        }
+      ],
+      "unconfirmed": [
+        "ISO 1452-2 and BS 6920 claims for the selected product",
+        "Heavy-metal-free and potable-water claims",
+        "50-year service life"
+      ],
+      "locale": {
+        "vi": {
+          "name": "Ống Cấp Nước PVC-U",
+          "summary": "Ống PVC-U cho cấp nước và tưới tiêu. Dải quy cách trong danh mục: 20–630 mm; cần xác nhận cấp áp lực của cấu hình đã chọn.",
+          "tags": [
+            "PVC-U",
+            "20–630 mm",
+            "Cấp nước"
+          ]
+        },
+        "zh": {
+          "name": "PVC-U 给水管",
+          "summary": "PVC-U 管道用于给水及灌溉。目录规格范围为 20–630 mm，具体压力等级需按选定配置确认。",
+          "tags": [
+            "PVC-U",
+            "20–630 mm",
+            "给水"
+          ]
+        }
+      }
+    },
+    {
+      "key": "ss_water",
+      "slug": "stainless-steel-water-pipe",
+      "category": "water",
+      "name": "Stainless Steel Water Pipe (304/304L/316L)",
+      "image": "assets/img_4dd368fa67.png",
+      "summary": "Stainless steel water piping in 304, 304L and 316L grades. The catalogue covers DN10–DN300 with press-fit or welded connection options for residential, hospitality and water-system projects.",
+      "cardSummary": "304, 304L and 316L stainless steel water piping. Catalogue diameter range: DN10–DN300.",
+      "tags": [
+        "304 / 304L / 316L",
+        "DN10–DN300",
+        "Press-fit / welded"
+      ],
+      "specifications": [
+        [
+          "Grades",
+          "304 / 304L / 316L"
+        ],
+        [
+          "Catalogue diameter range",
+          "DN10–DN300"
+        ],
+        [
+          "Catalogue wall-thickness range",
+          "0.8–4.5 mm"
+        ],
+        [
+          "Connection options",
+          "Press-fit or welded"
+        ]
+      ],
+      "applications": [
+        "Hospitals and hotels",
+        "Residential villas",
+        "Municipal water systems",
+        "Water treatment plants"
+      ],
+      "selection": [
+        "Specify the required grade, diameter, wall thickness and connection system.",
+        "Describe the water quality, exposure and project requirements for material review.",
+        "Ask for material traceability and the selected fitting-system documentation."
+      ],
+      "documents": [
+        "Material grade and traceability documents",
+        "Wall thickness and dimensions",
+        "Connection-system rating and installation instructions"
+      ],
+      "questions": [
+        {
+          "question": "Which stainless steel grades are listed?",
+          "answer": "The catalogue lists 304, 304L and 316L. Provide the grade in your project specification and the pipe dimensions; material selection should be checked against the water and exposure conditions."
+        },
+        {
+          "question": "Are press-fit and welded connections interchangeable?",
+          "answer": "Both connection options are listed, but they are different system choices. State the required connection type and request compatible fittings and installation documentation for that system."
+        }
+      ],
+      "unconfirmed": [
+        "Bacterial-growth prevention and hygiene guarantees",
+        "Pressure ratings for each wall thickness and connection",
+        "Water-contact approvals for the selected product"
+      ],
+      "locale": {
+        "vi": {
+          "name": "Ống Cấp Nước Thép Không Gỉ",
+          "summary": "Các mác thép 304, 304L và 316L. Dải đường kính trong danh mục: DN10–DN300, với phương án nối ép hoặc hàn.",
+          "tags": [
+            "304 / 304L / 316L",
+            "DN10–DN300",
+            "Nối ép / hàn"
+          ]
+        },
+        "zh": {
+          "name": "不锈钢给水管",
+          "summary": "提供 304、304L 和 316L 材质。目录口径范围为 DN10–DN300，可按项目要求选择卡压或焊接系统。",
+          "tags": [
+            "304 / 304L / 316L",
+            "DN10–DN300",
+            "卡压 / 焊接"
+          ]
+        }
+      }
+    },
+    {
+      "key": "hdpe_corrugated",
+      "slug": "hdpe-double-wall-corrugated-pipe",
+      "category": "drainage",
+      "name": "HDPE Double-Wall Corrugated Pipe",
+      "image": "assets/img_de61071319.png",
+      "summary": "HDPE drainage pipe with a smooth inner wall and corrugated outer wall for buried drainage applications. The existing catalogue lists 110–800 mm and SN4/SN8 ring-stiffness options.",
+      "cardSummary": "Smooth inner wall and corrugated outer wall for buried drainage. Catalogue options: 110–800 mm, SN4/SN8.",
+      "tags": [
+        "SN4 / SN8",
+        "110–800 mm",
+        "Buried drainage"
+      ],
+      "specifications": [
+        [
+          "Material",
+          "HDPE"
+        ],
+        [
+          "Catalogue size range",
+          "110–800 mm"
+        ],
+        [
+          "Catalogue ring-stiffness classes",
+          "SN4 / SN8"
+        ],
+        [
+          "Joining",
+          "Bell-and-spigot with rubber seal"
+        ]
+      ],
+      "applications": [
+        "Municipal sewage",
+        "Stormwater drainage",
+        "Agricultural irrigation",
+        "Underground cable protection"
+      ],
+      "selection": [
+        "Identify the drainage duty and required diameter and ring-stiffness class.",
+        "Provide burial depth, site conditions and the engineering specification for review.",
+        "Confirm joint-seal details and any project-specific testing requirements."
+      ],
+      "documents": [
+        "Ring-stiffness test evidence",
+        "Dimensions and joint-seal details",
+        "Buried installation guidance for the selected pipe"
+      ],
+      "questions": [
+        {
+          "question": "What do I need to specify for SN4 or SN8?",
+          "answer": "State the ring-stiffness class required by the project design alongside pipe size and site conditions. SN4 and SN8 are listed catalogue classes; the site does not provide a burial-design calculation."
+        },
+        {
+          "question": "How is the pipe joined?",
+          "answer": "The catalogue lists bell-and-spigot joints with a rubber seal. Request the selected pipe's socket dimensions and seal details to confirm the assembly."
+        }
+      ],
+      "unconfirmed": [
+        "Ring-stiffness test reports for the selected model",
+        "UV resistance and loading performance"
+      ],
+      "locale": {
+        "vi": {
+          "name": "Ống HDPE Gân Sóng Hai Lớp",
+          "summary": "Ống thoát nước chôn ngầm có thành trong trơn và thành ngoài gân sóng. Danh mục có quy cách 110–800 mm và các cấp SN4/SN8.",
+          "tags": [
+            "SN4 / SN8",
+            "110–800 mm",
+            "Chôn ngầm"
+          ]
+        },
+        "zh": {
+          "name": "HDPE 双壁波纹管",
+          "summary": "内壁光滑、外壁波纹的埋地排水管。目录规格为 110–800 mm，环刚度选项为 SN4/SN8。",
+          "tags": [
+            "SN4 / SN8",
+            "110–800 mm",
+            "埋地排水"
+          ]
+        }
+      }
+    },
+    {
+      "key": "hdpe_spiral",
+      "slug": "hdpe-spiral-wound-pipe-type-b-krah",
+      "category": "drainage",
+      "name": "HDPE Spiral Wound Pipe – Type B (Krah)",
+      "image": "assets/img_0c79fe4751.png",
+      "summary": "Large-diameter HDPE structured-wall pipe produced by spiral winding for drainage and infrastructure projects. The catalogue lists DN200–DN3000, with electrofusion jointing and ring-stiffness options to be confirmed for the selected pipe.",
+      "cardSummary": "Spiral-wound structured-wall drainage pipe. Catalogue diameter range: DN200–DN3000, with electrofusion jointing.",
+      "tags": [
+        "DN200–DN3000",
+        "Type B / Krah",
+        "Electrofusion"
+      ],
+      "specifications": [
+        [
+          "Material",
+          "HDPE"
+        ],
+        [
+          "Catalogue diameter range",
+          "DN200–DN3000"
+        ],
+        [
+          "Catalogue ring-stiffness reference",
+          "Up to SN20 (20 kN/m²); confirm by selected pipe"
+        ],
+        [
+          "Joining",
+          "Electrofusion"
+        ],
+        [
+          "Production",
+          "Spiral winding"
+        ]
+      ],
+      "applications": [
+        "Municipal drainage",
+        "Infrastructure projects",
+        "Hydraulic engineering",
+        "Environmental engineering"
+      ],
+      "selection": [
+        "Provide the design diameter, ring stiffness and installation conditions.",
+        "Confirm the dimensional convention and selected wall profile against drawings.",
+        "Request the jointing procedure and test evidence for the specified product."
+      ],
+      "documents": [
+        "Structured-wall profile and dimensions",
+        "Ring-stiffness test evidence",
+        "Electrofusion jointing procedure"
+      ],
+      "questions": [
+        {
+          "question": "What diameter range is listed for Krah-type pipe?",
+          "answer": "The existing catalogue lists DN200–DN3000. Confirm the required dimensions against the selected manufacturer's drawing and include diameter and quantity in your enquiry."
+        },
+        {
+          "question": "Is SN20 the rating of every pipe in this range?",
+          "answer": "No. The catalogue states up to SN20 (20 kN/m²) across the family. Request the actual ring-stiffness class and supporting test documentation for the diameter and wall profile being quoted."
+        }
+      ],
+      "unconfirmed": [
+        "Ring-stiffness test evidence by diameter/profile",
+        "Approved jointing and installation procedures"
+      ],
+      "locale": {
+        "vi": {
+          "name": "Ống HDPE Cuốn Xoắn Loại B (Krah)",
+          "summary": "Ống thoát nước thành kết cấu sản xuất bằng công nghệ cuốn xoắn. Dải đường kính trong danh mục: DN200–DN3000; nối hàn điện trở.",
+          "tags": [
+            "DN200–DN3000",
+            "Krah loại B",
+            "Hàn điện trở"
+          ]
+        },
+        "zh": {
+          "name": "HDPE 缠绕结构壁管 B 型（克拉管）",
+          "summary": "缠绕成型的结构壁排水管，目录口径范围为 DN200–DN3000，采用电熔连接。",
+          "tags": [
+            "DN200–DN3000",
+            "B 型克拉管",
+            "电熔"
+          ]
+        }
+      }
+    },
+    {
+      "key": "pvc_drain",
+      "slug": "pvc-u-drainage-pipe",
+      "category": "drainage",
+      "name": "PVC-U Drainage Pipe",
+      "image": "assets/img_012fd3a8bb.png",
+      "summary": "PVC-U piping for building drainage and gravity-flow installations. The catalogue lists sizes from 32 to 630 mm, with solvent-cement or rubber-ring jointing options depending on the selected system.",
+      "cardSummary": "PVC-U piping for soil, waste, rainwater and gravity drainage. Catalogue sizes: 32–630 mm.",
+      "tags": [
+        "PVC-U",
+        "32–630 mm",
+        "Gravity flow"
+      ],
+      "specifications": [
+        [
+          "Material",
+          "PVC-U"
+        ],
+        [
+          "Catalogue size range",
+          "32–630 mm"
+        ],
+        [
+          "Service",
+          "Gravity drainage"
+        ],
+        [
+          "Joining options",
+          "Solvent cement or rubber ring"
+        ]
+      ],
+      "applications": [
+        "Internal soil and waste systems",
+        "Rainwater drainage",
+        "Buried gravity pipelines",
+        "Building drainage systems"
+      ],
+      "selection": [
+        "State whether the pipe is for internal building drainage or an underground installation.",
+        "Provide sizes, fittings and the required jointing system.",
+        "Confirm the applicable standard and installation suitability for the selected product."
+      ],
+      "documents": [
+        "Dimensions and fittings schedule",
+        "Applicable standard and test documentation",
+        "Jointing and installation guidance"
+      ],
+      "questions": [
+        {
+          "question": "Is this the same family as PVC-U pressure water pipe?",
+          "answer": "This catalogue family is listed for gravity drainage. PVC-U Water Supply Pipe is a separate range; identify the intended duty and required specification in your enquiry."
+        },
+        {
+          "question": "Which joints are listed for drainage pipe?",
+          "answer": "Solvent-cement and rubber-ring joints are listed. Specify the required system and confirm pipe, fitting and seal compatibility for the quoted configuration."
+        }
+      ],
+      "unconfirmed": [
+        "ISO 3633 scope for selected configurations",
+        "50-year service life"
+      ],
+      "locale": {
+        "vi": {
+          "name": "Ống Thoát Nước PVC-U",
+          "summary": "Ống PVC-U cho thoát nước trọng lực trong công trình và đường ống chôn ngầm. Dải quy cách trong danh mục: 32–630 mm.",
+          "tags": [
+            "PVC-U",
+            "32–630 mm",
+            "Dòng trọng lực"
+          ]
+        },
+        "zh": {
+          "name": "PVC-U 排水管",
+          "summary": "PVC-U 管道用于建筑排水与重力流系统，目录规格范围为 32–630 mm。",
+          "tags": [
+            "PVC-U",
+            "32–630 mm",
+            "重力流"
+          ]
+        }
+      }
+    },
+    {
+      "key": "same_floor",
+      "slug": "same-floor-drainage-system",
+      "category": "drainage",
+      "name": "Same Floor Drainage System",
+      "image": "assets/img_4418fcb712.jpg",
+      "summary": "An HDPE drainage-system range for same-floor bathroom layouts in apartments, high-rise residences and hospitality projects. The catalogue lists traps, manifolds and floor drains; slab and branch layouts need to be checked against the project drawings.",
+      "cardSummary": "HDPE drainage components for same-floor bathroom layouts in apartments, high-rise residences and hotels.",
+      "tags": [
+        "HDPE",
+        "Same-floor layout",
+        "Traps & manifolds"
+      ],
+      "specifications": [
+        [
+          "Material",
+          "HDPE"
+        ],
+        [
+          "System",
+          "Same-floor drainage"
+        ],
+        [
+          "Catalogue components",
+          "Trap, manifold, floor drain"
+        ]
+      ],
+      "applications": [
+        "High-rise residential projects",
+        "Apartments and condominiums",
+        "Modern bathroom layouts",
+        "Hotels and hospitality projects"
+      ],
+      "selection": [
+        "Share bathroom layouts, slab details and the proposed drainage connections.",
+        "Confirm component sizes, access requirements and compatibility with the overall drainage design.",
+        "Review any slab-penetration or maintenance claims against the selected system and drawings."
+      ],
+      "documents": [
+        "System layout and component drawings",
+        "Connection dimensions",
+        "Installation and maintenance instructions"
+      ],
+      "questions": [
+        {
+          "question": "What is included in the listed component range?",
+          "answer": "The catalogue identifies traps, manifolds and floor drains in an HDPE same-floor drainage system. Include the bathroom layout and component quantities with your enquiry."
+        },
+        {
+          "question": "Can every layout avoid slab penetrations?",
+          "answer": "The original catalogue describes a no-slab-penetration approach, but the actual layout depends on the selected system and project details. Request a reviewed system drawing rather than treating that statement as a universal guarantee."
+        }
+      ],
+      "unconfirmed": [
+        "Below-floor versus same-floor layout terminology",
+        "Universal no-slab-penetration and hygiene claims"
+      ],
+      "locale": {
+        "vi": {
+          "name": "Hệ Thống Thoát Nước Đồng Tầng",
+          "summary": "Các bộ phận thoát nước HDPE cho bố trí phòng tắm đồng tầng tại căn hộ, nhà cao tầng và khách sạn; cần kiểm tra theo bản vẽ dự án.",
+          "tags": [
+            "HDPE",
+            "Bố trí đồng tầng",
+            "Bẫy nước & bộ góp"
+          ]
+        },
+        "zh": {
+          "name": "同层排水系统",
+          "summary": "面向公寓、高层住宅和酒店卫浴布局的 HDPE 同层排水组件，具体连接及楼板方案需结合项目图纸确认。",
+          "tags": [
+            "HDPE",
+            "同层布局",
+            "存水弯 / 汇流件"
+          ]
+        }
+      }
+    },
+    {
+      "key": "hdpe_gas",
+      "slug": "hdpe-gas-pipe",
+      "category": "gas",
+      "name": "HDPE Gas Pipe",
+      "image": "assets/img_f1a373b700.png",
+      "summary": "HDPE piping listed for gas-distribution projects, with butt-fusion and electrofusion jointing options. Request the selected pipe's approved gas application, grade, SDR and operating ratings before specification or procurement.",
+      "cardSummary": "HDPE pipe for gas-distribution enquiries, with butt-fusion and electrofusion options. Confirm approved use and ratings.",
+      "tags": [
+        "HDPE",
+        "Fusion jointing",
+        "Gas distribution"
+      ],
+      "specifications": [
+        [
+          "Material",
+          "HDPE"
+        ],
+        [
+          "Catalogue jointing options",
+          "Butt fusion / electrofusion"
+        ],
+        [
+          "Catalogue identification",
+          "Black with yellow stripe"
+        ],
+        [
+          "Operating ratings",
+          "Request the selected product's gas datasheet and approval"
+        ]
+      ],
+      "applications": [
+        "Urban gas-distribution enquiries",
+        "Residential gas-system enquiries",
+        "Industrial gas-pipeline enquiries",
+        "Commercial gas-supply enquiries"
+      ],
+      "selection": [
+        "Identify the gas, required pipe grade, SDR, design pressure and project authority requirements.",
+        "Request product-specific approval and operating ratings before engineering selection.",
+        "Confirm compatible fittings, installation procedures and the required joint testing."
+      ],
+      "documents": [
+        "Selected gas-pipe approval and datasheet",
+        "Grade, SDR and operating ratings",
+        "Jointing and testing procedures"
+      ],
+      "questions": [
+        {
+          "question": "Why are pressure and temperature ratings requested separately?",
+          "answer": "Confirm the operating limits against the selected manufacturer's gas-pipe approval and rating table. Obtain the product documentation and project approval before specification, with the gas application, grade and SDR clearly identified."
+        },
+        {
+          "question": "What information should a gas-pipe enquiry include?",
+          "answer": "Include the gas application, grade, SDR or required pressure class, dimensions, quantity and destination, plus the project specification. Ask for the approval and jointing documentation associated with the quoted product."
+        }
+      ],
+      "unconfirmed": [
+        "Original ≤0.7 MPa and -20 to +40 °C operating claims",
+        "Gas approvals and applicability",
+        "Leak-free safety and 50-year lifespan claims"
+      ],
+      "locale": {
+        "vi": {
+          "name": "Ống Khí HDPE",
+          "summary": "Ống HDPE cho yêu cầu báo giá hệ thống phân phối khí, có phương án hàn đối đầu và hàn điện trở. Cần xác nhận hồ sơ chấp thuận và thông số vận hành.",
+          "tags": [
+            "HDPE",
+            "Nối hàn",
+            "Phân phối khí"
+          ]
+        },
+        "zh": {
+          "name": "HDPE 燃气管",
+          "summary": "HDPE 燃气管道询价范围包含对接熔焊与电熔连接，选型前需确认具体产品的适用批准及运行参数。",
+          "tags": [
+            "HDPE",
+            "熔接",
+            "燃气分配"
+          ]
+        }
+      }
+    },
+    {
+      "key": "pvc_conduit",
+      "slug": "pvc-cable-trunking-electrical-conduit",
+      "category": "electrical",
+      "name": "PVC Cable Trunking & Electrical Conduit",
+      "image": "assets/img_3cb3ad3e0d.png",
+      "summary": "PVC cable trunking and conduit for surface wiring and concealed installations in residential and commercial buildings. Confirm dimensions, accessories and required fire or impact classifications for the selected product.",
+      "cardSummary": "PVC trunking and conduit for surface and concealed cable routing in residential and commercial buildings.",
+      "tags": [
+        "PVC",
+        "Surface routing",
+        "Concealed conduit"
+      ],
+      "specifications": [
+        [
+          "Material",
+          "PVC"
+        ],
+        [
+          "Catalogue installation options",
+          "Surface or concealed"
+        ],
+        [
+          "Product types",
+          "Cable trunking and electrical conduit"
+        ],
+        [
+          "Fire and impact classifications",
+          "Request product-specific test documentation"
+        ]
+      ],
+      "applications": [
+        "Surface wiring systems",
+        "Concealed concrete installations",
+        "Commercial projects",
+        "Residential buildings"
+      ],
+      "selection": [
+        "Provide trunking dimensions or conduit size and the cable-routing layout.",
+        "Identify indoor, outdoor or concealed installation conditions and required accessories.",
+        "Request evidence for the fire, impact and temperature classifications specified by the project."
+      ],
+      "documents": [
+        "Dimensions and accessories catalogue",
+        "Applicable fire and impact test reports",
+        "Installation and operating-condition guidance"
+      ],
+      "questions": [
+        {
+          "question": "How do I choose between trunking and conduit for an enquiry?",
+          "answer": "The catalogue lists trunking for surface routes and conduit for concealed routes. Provide your cable layout, installation method and required dimensions so the appropriate listed components can be reviewed."
+        },
+        {
+          "question": "Is a UL94 V-0 rating confirmed for the entire range?",
+          "answer": "Fire performance must be confirmed for the selected model. Request a test report covering UL94 V-0 or the classification required by your project, including the tested product and the report's scope."
+        }
+      ],
+      "unconfirmed": [
+        "UL94 V-0 and self-extinguishing claims",
+        "Impact performance",
+        "Original -5 to +60 °C temperature range"
+      ],
+      "locale": {
+        "vi": {
+          "name": "Máng Cáp & Ống Luồn Dây PVC",
+          "summary": "Máng cáp và ống luồn PVC cho đi dây nổi và lắp đặt âm trong công trình dân dụng, thương mại. Cần xác nhận quy cách và hồ sơ thử nghiệm theo sản phẩm.",
+          "tags": [
+            "PVC",
+            "Đi dây nổi",
+            "Ống luồn âm"
+          ]
+        },
+        "zh": {
+          "name": "PVC 线槽及电工套管",
+          "summary": "PVC 线槽与套管用于住宅及商业建筑的明装和暗埋布线，具体规格和试验等级需按选定产品确认。",
+          "tags": [
+            "PVC",
+            "明装布线",
+            "暗埋套管"
+          ]
+        }
+      }
+    }
+  ],
+  "catalogueReviewedDate": "2026-10-10",
+  "strategyReviewedDate": "2026-10-17",
+  "positioning": {
+    "region": "Southeast Asia",
+    "priorityMarkets": [
+      "Malaysia",
+      "Singapore"
+    ],
+    "businessModel": "Independent trading company registered in China",
+    "description": "Victory Global Materials is an independent trading company registered in China, developing pipes and fittings sourcing for Southeast Asia projects, with a focus on Malaysia and Singapore.",
+    "homeTitle": "Pipes & Fittings for Southeast Asia | Victory Global",
+    "homeDescription": "Discuss China-sourced PVC-U, HDPE and stainless steel pipes and fittings for Southeast Asia projects. Malaysia and Singapore enquiries; documents and delivery reviewed before quotation."
+  },
+  "manufacturers": [
+    {
+      "name": "LESSO",
+      "image": "assets/LESSO%20LOGO.png"
+    },
+    {
+      "name": "Kuanyu Stainless Steel",
+      "image": "assets/KUANYU%20STAINLESS%20STEEL%20LOGO.png"
+    }
+  ],
+  "markets": [
+    {
+      "key": "malaysia",
+      "name": "Malaysia",
+      "slug": "malaysia",
+      "title": "Malaysia Pipe Sourcing Enquiries | Victory Global",
+      "description": "Pipe and fitting sourcing enquiries for Malaysia, starting with Johor. Review application, specifications, documents and destination before a quotation.",
+      "heading": "Pipe sourcing enquiries for Malaysia",
+      "eyebrow": "Malaysia · Johor focus",
+      "intro": "Victory Global Materials is developing its Malaysia business with an initial focus on contractors and project procurement teams in Johor. We are an independent trading company registered in China; products, documents and delivery requirements are reviewed for each enquiry.",
+      "focusHeading": "Start with the actual procurement requirement",
+      "focus": [
+        "Tell us whether you are buying for a contractor, subcontractor, project owner or distributor, and which company will place the order.",
+        "Share the water, drainage or other application, material and connection method. The initial sourcing focus is PVC-U, HDPE and stainless steel.",
+        "Confirm whether overseas purchasing is possible or a locally registered supply party is required. No Malaysian office, warehouse or local stock is represented here."
+      ],
+      "documentsHeading": "Product and project documents",
+      "documents": [
+        "Project specification, drawings and bill of quantities where available.",
+        "Selected manufacturer, model, dimensions, grade and pressure or stiffness class.",
+        "Project standards, test evidence and supplier acceptance requirements. Any required local registration or acceptance must be checked for the actual product and route."
+      ],
+      "deliveryHeading": "Plan delivery to Johor or another destination",
+      "delivery": [
+        "Provide the delivery city, site address and required date. Other Malaysian destinations can be discussed alongside the initial Johor focus.",
+        "Packaging dimensions, pipe lengths, gross weight and handling constraints are needed before transport can be assessed.",
+        "Confirm the exporter, importer, customs responsibilities, unloading and delivery scope. Charges, payment terms and timing must be agreed for the actual quotation."
+      ],
+      "questions": [
+        {
+          "question": "Can I enquire about a project outside Johor?",
+          "answer": "Yes. Include the Malaysian destination and project requirements. Johor is the initial development focus; supply and transport feasibility are reviewed for the actual enquiry."
+        },
+        {
+          "question": "Can you supply through a Malaysian company?",
+          "answer": "Tell us if a local contracting or supply party is required. Victory is registered in China, and any local supply route must be established and confirmed before a commercial commitment."
+        },
+        {
+          "question": "Is every catalogue product accepted for my project?",
+          "answer": "No blanket acceptance is claimed. The selected model, intended application and supporting documents must be checked against the project and applicable local requirements."
+        },
+        {
+          "question": "Is there a fixed minimum order or delivery price?",
+          "answer": "No fixed quantity or transport price is published. Provide quantities, sizes and destination so packaging, freight feasibility and quotation scope can be assessed."
+        }
+      ],
+      "cta": "Discuss a Malaysia requirement"
+    },
+    {
+      "key": "singapore",
+      "name": "Singapore",
+      "slug": "singapore",
+      "title": "Singapore Procurement Enquiries | Victory Global",
+      "description": "Discuss Singapore project procurement and documentation requirements with a China-registered independent trader. Product eligibility and supply arrangements require verification.",
+      "heading": "Procurement enquiries for Singapore projects",
+      "eyebrow": "Singapore · Requirements and documentation",
+      "intro": "We welcome discussions with Singapore contractors and procurement teams about project requirements and potential China-sourcing routes. This page is a procurement enquiry guide; it does not identify any catalogue fitting as eligible for supply or installation in Singapore.",
+      "focusHeading": "Define the purchasing and application requirements",
+      "focus": [
+        "Identify the actual purchasing company, application and specification, including whether the requirement involves potable water.",
+        "Confirm whether procurement permits an overseas contracting party or requires a local supplier or importer.",
+        "Victory Global Materials is an independent trading company registered in China. No Singapore office, warehouse, local stock or established local supply arrangement is claimed."
+      ],
+      "documentsHeading": "Evidence before product eligibility claims",
+      "documents": [
+        "PUB states that water fittings for water-service installations must be tested to its stipulated standards before they are supplied, displayed, offered or advertised for that use.",
+        "No selected-model evidence establishing Singapore water-service eligibility has been supplied for this catalogue. We do not present it as an approved Singapore range.",
+        "Share the project specification and document checklist. Manufacturer, model, test reports and applicable requirements must be verified before a product-specific supply proposal."
+      ],
+      "authority": {
+        "name": "PUB water fittings requirements",
+        "url": "https://www.pub.gov.sg/Professionals/Requirements/Water-Supply-Services/Water-Fittings",
+        "checkedDate": "2026-10-17"
+      },
+      "deliveryHeading": "Clarify the commercial route before quotation",
+      "delivery": [
+        "Identify the contracting party, importer and intended delivery point.",
+        "Review packaging, shipping, destination handling, customs, unloading and delivery responsibilities for the actual goods and route.",
+        "Prices, availability, payment dates and transport timing require confirmation. A discussion or document review is not an offer of an unverified fitting for Singapore use."
+      ],
+      "questions": [
+        {
+          "question": "Are the catalogue products PUB-approved?",
+          "answer": "We do not claim PUB approval or confirmed Singapore water-service eligibility for the catalogue. Product-specific evidence is required; a general ISO statement or a catalogue logo does not establish it."
+        },
+        {
+          "question": "What should I include in an initial enquiry?",
+          "answer": "Share the application, project specification, dimensions, quantities and document requirements, together with the purchasing company and destination. Identify potable-water use explicitly."
+        },
+        {
+          "question": "Are you a Singapore-based supplier?",
+          "answer": "Victory Global Materials is registered in China. No Singapore company, warehouse or local stock is represented here; any required local purchasing route must be confirmed."
+        },
+        {
+          "question": "Can you quote immediately from a catalogue?",
+          "answer": "A catalogue is a starting reference. Product eligibility, documents, purchasing arrangements and delivery scope must be verified before a product-specific commercial proposal."
+        }
+      ],
+      "cta": "Discuss procurement requirements"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://victoryglobalmaterials.com/sitemap.xml
